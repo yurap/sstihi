@@ -1,0 +1,484 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/32/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": "ДООО…\n",
+      "image": "data/images/32/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "УДК 82-1\nББК 84-5\nД55\nШрифты предоставлены компанией «ПараТайп»\nДООО…. — [б. м.] : [б. и.], 2023. — 42 с.\n[б. н.]\nНассим Талеб утверждает, что литературоведам не знакомо понятие шума.\nДаже если автор не собирается ничего сказать, это сделает за него под- или\nбессознательное. И Маршалл Маклюэн тут не поможет, Колмогоров не выру-\nчит. Остаётся покориться, собраться со смыслами и отправиться в крестовый\nпоход на бесшумные акростихи.\nД55\nУДК 82-1\nББК 84-5\n0+\nВ соответствии с ФЗ от 29.12.2010 №436-ФЗ\n© Екатерина Ермолова, дизайн обложки, 2023\n",
+      "image": "data/images/32/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": null,
+      "image": "data/images/32/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": null,
+      "image": "data/images/32/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "* * *\nДрево засохло,\nНо ветки все тянутся\nКак объездные дороги.\nУэда Госэнгоку,\n",
+      "image": "data/images/32/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "* * *\nweathered bridge\neverything but the moon\ndrifting downstream\n?\n",
+      "image": "data/images/32/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "* * *\nПолуденное солнце\nИзглодало облака — в небе\nРыбьи кости.\n",
+      "image": "data/images/32/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "* * *\nalone\nin the tea house\nrainy night\n?\n",
+      "image": "data/images/32/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "* * *\nПервая полная луна —\nи та уже поймана\nна голый провод!\nЖиль Фабр,\nперевод Валерии Крестовой\n",
+      "image": "data/images/32/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "* * *\nwhich considering the price\nit would be a sin\nnot to enjoy\n?\n",
+      "image": "data/images/32/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "* * *\nПолуденное солнце\nИзглодало облака — в небе\nРыбьи кости.\n",
+      "image": "data/images/32/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "* * *\nthe first thing I looked for\nin my old garden was\nthe cherry tree\n?\n",
+      "image": "data/images/32/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "* * *\nВсем сердцем я чту,\nОтдыхая в полдневный жар,\nЛюдей на полях.\n",
+      "image": "data/images/32/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "* * *\nshe is trying to say something but her mouth\nhas been painted deliberately shut\nher lips thin\n?\n",
+      "image": "data/images/32/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "* * *\nкрасивый полицейский\nона избегает\nпешеходной дорожки\n",
+      "image": "data/images/32/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "* * *\nrain turning to snow\na beggar in the subway\nthat no one believes\n?\n",
+      "image": "data/images/32/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "* * *\nПолез сквозь забор\nИ застрял\nЛопух у дороги\n",
+      "image": "data/images/32/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "* * *\nprayer group\neight candle flames flicker\nwith our breath\n?\n",
+      "image": "data/images/32/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "* * *\nкуда-то спешат пешеходы\nпробило на грусть\nзавтра пробьёт на радость…\n",
+      "image": "data/images/32/page_20.png"
+    },
+    {
+      "page": 21,
+      "text": "* * *\npickup truck\nan old retriever\nlaps the wind\n?\n",
+      "image": "data/images/32/page_21.png"
+    },
+    {
+      "page": 22,
+      "text": "* * *\nвернулась\nв продуктовой сумке\nпара жёлтых листьев\n",
+      "image": "data/images/32/page_22.png"
+    },
+    {
+      "page": 23,
+      "text": "* * *\nnight after night\nthe farm dog forgets\nhe knows me of old\n?\n",
+      "image": "data/images/32/page_23.png"
+    },
+    {
+      "page": 24,
+      "text": "* * *\nлетнее утро\nу встречной бегуньи\nчуть ярче макияж\n",
+      "image": "data/images/32/page_24.png"
+    },
+    {
+      "page": 25,
+      "text": null,
+      "image": "data/images/32/page_25.png"
+    },
+    {
+      "page": 26,
+      "text": null,
+      "image": "data/images/32/page_26.png"
+    },
+    {
+      "page": 27,
+      "text": null,
+      "image": "data/images/32/page_27.png"
+    },
+    {
+      "page": 28,
+      "text": "* * *\nСкрипя, раздирает мне ухо\nЕе табакерка порой.\nКак страшно кивает старуха\nСедою своей головой!\n",
+      "image": "data/images/32/page_28.png"
+    },
+    {
+      "page": 29,
+      "text": "* * *\nБелая равнина без предела.\nЛьнет метель, снежинками шурша.\nОтчего так сердце онемело?\nКак же в плен попала ты, душа?\n",
+      "image": "data/images/32/page_29.png"
+    },
+    {
+      "page": 30,
+      "text": "* * *\nЯ шел к вам глубокой ночью\nВ дворцовый роскошный сад.\nКинжал был остро отточен,\nА в перстне был спрятан яд.\n",
+      "image": "data/images/32/page_30.png"
+    },
+    {
+      "page": 31,
+      "text": "* * *\nТолько редко над их ореолом\nРаскрываются в небе глаза,\nИ с прекрасным журчаньем веселым\nПрилетает из рая гроза.\n",
+      "image": "data/images/32/page_31.png"
+    },
+    {
+      "page": 32,
+      "text": "* * *\nТолстой! Это слово сегодня так странно звучит.\nАпостол Добра, пламеневшее жалостью слово…\nНа наших погостах средь многих затоптанных плит,\nКак свежая рана, зияет могила Толстого.\n",
+      "image": "data/images/32/page_32.png"
+    },
+    {
+      "page": 33,
+      "text": "* * *\nСлышите лающий гуд,\nТо стучится в ад Григорий Новых…\nУ Лючифера в венце изумруд,\nКак празелень рощ сосновых.\n",
+      "image": "data/images/32/page_33.png"
+    },
+    {
+      "page": 34,
+      "text": "* * *\nСих Лошаковых гибель, тьма,\nОт них земная кутерьма.\nНа протяжении веков\nМилльярд милльярдов лошаков.\n",
+      "image": "data/images/32/page_34.png"
+    },
+    {
+      "page": 35,
+      "text": "* * *\nМилый Вы мой и добрый! Ведь Вы так измучились\nОт вечного одиночества, от одиночного холода…\nПо своей принцессе лазоревой — по Мечте своей\nсоскучились:\nСердце-то было весело! сердце-то было молодо!\n",
+      "image": "data/images/32/page_35.png"
+    },
+    {
+      "page": 36,
+      "text": "* * *\nМело весь месяц в феврале,\nИ то и дело\nСвеча горела на столе,\nСвеча горела.\n",
+      "image": "data/images/32/page_36.png"
+    },
+    {
+      "page": 37,
+      "text": "* * *\nвсегда ночной, всегда внезапный,\nон скачет, тень его легка.\nи только вспышки делят запад\nна равно-белые века\n",
+      "image": "data/images/32/page_37.png"
+    },
+    {
+      "page": 38,
+      "text": "* * *\nВидишь вон крышу? Взберись на нее,\nНа самый конец трубы, —\nУвидишь могилы на много верст,\nКоторые ты забыл.\n",
+      "image": "data/images/32/page_38.png"
+    },
+    {
+      "page": 39,
+      "text": null,
+      "image": "data/images/32/page_39.png"
+    },
+    {
+      "page": 40,
+      "text": "Оглавление\n3\n3\n«Древо засохло…»\n5\n«weathered bridge…»\n6\n«Полуденное солнце…»\n7\n«alone…»\n8\n«Первая полная луна …»\n9\n«which considering the price…»\n10\n«Полуденное солнце…»\n11\n«the first thing I looked for…»\n12\n«Всем сердцем я чту…»\n13\n«she is trying to say something but her mouth…»\n14\n«красивый полицейский…»\n15\n«rain turning to snow…»\n16\n«Полез сквозь забор…»\n17\n«prayer group…»\n18\n«куда-то спешат пешеходы…»\n19\n«pickup truck…»\n20\n«вернулась…»\n21\n«night after night…»\n22\n«летнее утро…»\n23\n4\n25\n«Скрипя, раздирает мне ухо…»\n27\n«Белая равнина без предела…»\n28\n«Я шел к вам глубокой ночью…»\n29\n«Только редко над их ореолом…»\n30\n«Толстой! Это слово сегодня так странно\nзвучит…»\n31\n«Слышите лающий гуд…»\n",
+      "image": "data/images/32/page_40.png"
+    },
+    {
+      "page": 41,
+      "text": "«Сих Лошаковых гибель, тьма…»\n33\n«Милый Вы мой и добрый! Ведь Вы так\nизмучились…»\n34\n«Мело весь месяц в феврале…»\n35\n«всегда ночной, всегда внезапный…»\n36\n«Видишь вон крышу? Взберись на нее…»\n",
+      "image": "data/images/32/page_41.png"
+    },
+    {
+      "page": 42,
+      "text": null,
+      "image": "data/images/32/page_42.png"
+    },
+    {
+      "page": 43,
+      "text": "ДООО…\nСоздано в интеллектуальной издательской системе Ridero\nДизайнер обложки Екатерина Ермолова\n",
+      "image": "data/images/32/page_43.png"
+    },
+    {
+      "page": 44,
+      "text": null,
+      "image": "data/images/32/page_44.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "tech"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": "перевод Андрея Замилова",
+      "type": "text"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": "Витя Зилов",
+      "type": "text"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": "и/или Алексея Андреева",
+      "type": "text"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": "Витя Зилов",
+      "type": "text"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": "Кобаяси Исса",
+      "type": "text"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": "Мая Кисьова",
+      "type": "text"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": "Василий",
+      "type": "text"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": "Айвенго",
+      "type": "text"
+    },
+    {
+      "start": 21,
+      "end": 21,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 22,
+      "end": 22,
+      "author": "Нелли Сливинская",
+      "type": "text"
+    },
+    {
+      "start": 23,
+      "end": 23,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 24,
+      "end": 24,
+      "author": "Алексей Ким",
+      "type": "text"
+    },
+    {
+      "start": 25,
+      "end": 25,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 26,
+      "end": 26,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 27,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 28,
+      "end": 28,
+      "author": "(Николай Некрасов)",
+      "type": "text"
+    },
+    {
+      "start": 29,
+      "end": 29,
+      "author": "(Константин Бальмонт)",
+      "type": "text"
+    },
+    {
+      "start": 30,
+      "end": 30,
+      "author": "(Анна Баркова)",
+      "type": "text"
+    },
+    {
+      "start": 31,
+      "end": 31,
+      "author": "(Борис Поплавский)",
+      "type": "text"
+    },
+    {
+      "start": 32,
+      "end": 32,
+      "author": "(Саша Чёрный)",
+      "type": "text"
+    },
+    {
+      "start": 33,
+      "end": 33,
+      "author": "(Николай Клюев)",
+      "type": "text"
+    },
+    {
+      "start": 34,
+      "end": 34,
+      "author": "(Евгений Кропивницкий)",
+      "type": "text"
+    },
+    {
+      "start": 35,
+      "end": 35,
+      "author": "(Игорь Северянин)",
+      "type": "text"
+    },
+    {
+      "start": 36,
+      "end": 36,
+      "author": "(Борис Пастернак)",
+      "type": "text"
+    },
+    {
+      "start": 37,
+      "end": 37,
+      "author": "(Владимир Казаков)",
+      "type": "text"
+    },
+    {
+      "start": 38,
+      "end": 38,
+      "author": "(Михаил Светлов)",
+      "type": "text"
+    },
+    {
+      "start": 39,
+      "end": 39,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 41,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 42,
+      "end": 42,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 43,
+      "end": 43,
+      "author": null,
+      "type": "tech"
+    },
+    {
+      "start": 44,
+      "end": 44,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}

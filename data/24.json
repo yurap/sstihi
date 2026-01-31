@@ -1,0 +1,248 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/24/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": "Сергей Штейнер\nНазвание книги\n",
+      "image": "data/images/24/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "УДК 82-3\nББК 84-4\nШ88\nШрифты предоставлены компанией «ПараТайп»\nШтейнер Сергей\nНазвание книги : сонеты / Сергей Штейнер. — [б. м.] : [б. и.],\n2023. — 20 с.\n[б. н.]\nЖанр: философский гуморизм.\nЯзык: SHA3—224.\nПеревод с SHA2 Сергея Штейнера.\nСимволов: 75. Должно быть от 120 до 500 символов.\nШ88\nУДК 82-3\nББК 84-4\n12+\nВ соответствии с ФЗ от 29.12.2010 №436-ФЗ\n© Сергей Штейнер, 2023\n",
+      "image": "data/images/24/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "* * *\n8401\nfc5d\n3569\ncba8\n94d7\nfccd\n3f53\n25aa\nd87a\nfd9b\n7f1d\nd700\n285f\n350c\n",
+      "image": "data/images/24/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "* * *\n7c82\n2915\n35b7\nfc73\na285\n32f9\nd73d\n6e2b\n2f53\n65c4\n61ad\n6070\n91cb\n997d\n",
+      "image": "data/images/24/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "* * *\nc13b\n171c\n13e2\n8e39\n19d2\ne67b\nc1ab\n118f\n4bd0\nef55\n43b6\n01ad\nde4d\ndb99\n",
+      "image": "data/images/24/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "* * *\na004\n26fd\n750e\n94b6\n910c\nd16d\ne573\nbcf9\n6aa2\nbbc6\n38d3\nedfd\n8300\n8747\n",
+      "image": "data/images/24/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "* * *\n7aa2\nad3d\nfb7e\n0e18\n29d8\nee7b\n6e97\n786d\nd6a3\n2f6e\nb50b\n1f93\n4d25\n8388\n",
+      "image": "data/images/24/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "* * *\nea52\nd72a\n5118\n67b4\ne842\n28c8\nf6b8\ncccd\n7006\nf757\n6715\n22e0\na83c\n56ac\n",
+      "image": "data/images/24/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "* * *\n7a70\nd4b2\n60fe\n74f5\n3178\n102b\nc655\n51a4\n34f0\nbe6b\n6fd8\n2a75\n41c8\nf9b1\n",
+      "image": "data/images/24/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "* * *\n1ba3\n34a1\ne136\n2ae1\n7e60\na5c4\n725a\n6284\ne808\n9fab\n7607\nd5f0\ne41d\n91dc\n",
+      "image": "data/images/24/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "* * *\n84f0\ncb49\nd17e\n6d17\nb6b0\n93c4\nd103\n59e6\nfd4f\nbccf\n6131\ne975\n4e73\n68b1\n",
+      "image": "data/images/24/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "* * *\nd8e4\n58b5\n56a0\naa40\nd099\na980\n35c2\n8cba\n674e\ncbf3\ne3f6\n7741\n3206\n2c65\n",
+      "image": "data/images/24/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "* * *\nd3a0\ncc51\n0c01\n60dd\n0a72\n41d8\na1ac\n7e1c\n2cec\n6ffc\n3462\n4dcf\n0bf4\nd136\n",
+      "image": "data/images/24/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "* * *\nbd68\na487\n06a5\n301d\n2fcc\n6875\n26d8\ne631\n7cf8\nce4c\n3633\ncb9c\n8586\nfebd\n",
+      "image": "data/images/24/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "* * *\n9b30\n3b6d\n51d2\n00d7\n65c8\na29c\ne75f\nb68e\n155b\n2c0c\n81b8\n550e\nfb28\n436e\n",
+      "image": "data/images/24/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "* * *\n3a2a\n5d13\nb729\n77e6\n2c02\n57a3\n5edf\nd65f\n3f9f\nf853\nb92d\nd81a\na227\n132a\n",
+      "image": "data/images/24/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "* * *\ndc09\n6611\nf8c2\nde1f\n720a\nfbe7\nb9d9\n4407\na3f6\nd941\n40d8\n9163\na246\ndacb\n",
+      "image": "data/images/24/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "* * *\n6b4e\n0342\n3667\ndbb7\n3b6e\n1545\n4f0e\nb1ab\nd459\n7f9a\n1b07\n8e3f\n5b5a\n6bc7\n",
+      "image": "data/images/24/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "ОГЛАВЛЕНИЕ\n«8401…»\n3\n«7c82…»\n4\n«c13b…»\n5\n«a004…»\n6\n«7aa2…»\n7\n«ea52…»\n8\n«7a70…»\n9\n«1ba3…»\n10\n«84f0…»\n11\n«d8e4…»\n12\n«d3a0…»\n13\n«bd68…»\n14\n«9b30…»\n15\n«3a2a…»\n16\n«dc09…»\n17\n«6b4e…»\n",
+      "image": "data/images/24/page_20.png"
+    },
+    {
+      "page": 21,
+      "text": "Название книги\nсонеты\nСоздано в интеллектуальной издательской системе Ridero\n",
+      "image": "data/images/24/page_21.png"
+    },
+    {
+      "page": 22,
+      "text": null,
+      "image": "data/images/24/page_22.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "tech"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 21,
+      "end": 21,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 22,
+      "end": 22,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}

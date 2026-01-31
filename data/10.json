@@ -1,0 +1,136 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": "import sys\ndef yoficate(text):\n    yoficated_text = ''\n    for c in text:\n        if c in 'ёЁ':\n            yoficated_text += '¨'\n        elif c == '\\n':\n            yoficated_text += c\n        else:\n            yoficated_text += ' '\n    return yoficated_text\nif __name__ == '__main__':\n    text = sys.stdin.read()\n    result = yoficate(text)\n    print(result)\n",
+      "image": "data/images/10/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": null,
+      "image": "data/images/10/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "                      ¨\n               ¨\n          ¨\n    ¨\n    ¨\n              ¨\n",
+      "image": "data/images/10/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "     ¨\n              ¨\n",
+      "image": "data/images/10/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "                   ¨\n                 ¨\n                      ¨\n            ¨\n                     ¨\n                   ¨\n       ¨     ¨       ¨\n                ¨\n               ¨\n¨           ¨   ¨\n",
+      "image": "data/images/10/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "                    ¨\n       ¨                 ¨\n        ¨\n                     ¨\n     ¨         ¨\n      ¨         ¨\n                      ¨\n           ¨             ¨\n                 ¨\n      ¨\n      ¨               ¨\n     ¨\n  ¨\n ¨\n",
+      "image": "data/images/10/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "      ¨\n                   ¨\n                  ¨\n       ¨\n¨\n      ¨\n                   ¨\n                 ¨\n       ¨\n       ¨\n      ¨\n",
+      "image": "data/images/10/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": " ¨\n      ¨\n         ¨\n                      ¨\n                 ¨\n                ¨\n     ¨         ¨\n",
+      "image": "data/images/10/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "              ¨\n          ¨\n              ¨\n          ¨             ¨\n  ¨\n                      ¨\n           ¨\n",
+      "image": "data/images/10/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": null,
+      "image": "data/images/10/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "                                      ¨\n                           ¨\n               ¨\n                             ¨\n                               ¨\n            ¨              ¨\n                           ¨\n                              ¨\n",
+      "image": "data/images/10/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "      ¨        ¨\n                ¨\n                 ¨\n                ¨\n        ¨\n                   ¨\n                  ¨\n",
+      "image": "data/images/10/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "          ¨    ¨\n        ¨   ¨\n                     ¨   ¨\n                      ¨\n                           ¨\n                            ¨\n",
+      "image": "data/images/10/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "                      ¨\n                    ¨   ¨\n                 ¨\n                   ¨\n     ¨\n          ¨\n",
+      "image": "data/images/10/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "    ¨\n          ¨\n                    ¨   ¨\n                       ¨\n               ¨\n",
+      "image": "data/images/10/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": " ¨\n                     ¨\n             ¨\n             ¨\n     ¨\n     ¨\n       ¨\n",
+      "image": "data/images/10/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "   ¨                        ¨\n   ¨          ¨\n   ¨                    ¨\n         ¨                ¨\n ¨\n                ¨\n   ¨\n  ¨  ¨            ¨       ¨\n               ¨\n    ¨                      ¨\n                         ¨\n",
+      "image": "data/images/10/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "                    ¨\n     ¨\n¨      ¨     ¨   ¨\n           ¨    ¨\n ¨    ¨\n ¨\n       ¨\n                   ¨\n",
+      "image": "data/images/10/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "     ¨      ¨\n                 ¨\n¨   ¨  ¨   ¨\n                    ¨\n",
+      "image": "data/images/10/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "      ¨        ¨\n                  ¨\n                       ¨\n                      ¨\n      ¨          ¨\n                   ¨\n                    ¨\n      ¨        ¨\n                   ¨\n      ¨\n      ¨\n",
+      "image": "data/images/10/page_20.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 3,
+      "end": 9,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 11,
+      "end": 20,
+      "author": null,
+      "type": "text"
+    }
+  ]
+}

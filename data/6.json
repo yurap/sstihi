@@ -1,0 +1,214 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": "Музей оптических иллюзий\nНОВАЯ ОПТИКА\n19 июля 2025 г.\n",
+      "image": "data/images/6/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": "Предуведомление\nПочему-то музеи оптических иллюзий строят только крупных городах.\nТогда как по сути это самый простой тип музея, его можно оперативно\nразвернуть в любой деревне, в каждой квартире. Это всё-таки не Лувр\nи не Прадо. Брошюра, которую вы держите в руках, представляет собой\nготовый реквизит подобного музея: просто вырвите понравившиеся вам\nстраницы и наклейте на стену.\n",
+      "image": "data/images/6/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "Что изображено на картинке? Перед вами\nклассический пример так называемой\nорфографической оптической иллюзии. На\nсамом деле на картинке изображён Манчестер.\n",
+      "image": "data/images/6/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "Если долго смотреть на эту картинку, она\nпосмотрит на вас.\n",
+      "image": "data/images/6/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "Если долго смотреть на эту картинку, то потом\nможно долго не смотреть.\n",
+      "image": "data/images/6/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "Если долго смотреть на эту картинку, её можно\nвыучить наизусть.\n",
+      "image": "data/images/6/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "Смотреть на эту картинку опасно для жизни!\n",
+      "image": "data/images/6/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "Если внимательно всматриваться в эту\nкартинку, вы заметите полосатую лошадь.\n",
+      "image": "data/images/6/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "Если внимательно всматриваться в центр\nизображения, вы заметите белую птицу.\n",
+      "image": "data/images/6/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "Что написано сверху?\n",
+      "image": "data/images/6/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "Какое-какое?\n",
+      "image": "data/images/6/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": ":(\n",
+      "image": "data/images/6/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "На первый взгляд кажется, что верхняя линия\nкороче нижней. На самом деле, так оно и есть.\n",
+      "image": "data/images/6/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "треугольник Пенроуза\n",
+      "image": "data/images/6/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "перечитайте Пукшина\n",
+      "image": "data/images/6/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "Эффектом Струпа называют задержку\nреакции при прочтении слов, когда цвет слов\nне совпадает с написанными словами. По\nслухам, в США 1950-x годов тест Струпа на\nрусском языке использовали для выявления\nсоветских шпионов: человек, знающий\nрусский, называл цвета с задержкой.\n",
+      "image": "data/images/6/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "Другой из них был дождь и грязь,\nОдин - листвы зеленой вязь,\nВесна и небо голубое!\n",
+      "image": "data/images/6/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "тогда земляника покажется.\n",
+      "image": "data/images/6/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "Показалась.\n",
+      "image": "data/images/6/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "Показалось.\n",
+      "image": "data/images/6/page_20.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "tech"
+    },
+    {
+      "start": 2,
+      "end": 3,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 14,
+      "end": 15,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": null,
+      "type": "title"
+    }
+  ]
+}

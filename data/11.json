@@ -1,0 +1,220 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/11/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": "ㅤ\n",
+      "image": "data/images/11/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "УДК 82-1\nББК 84-5\nШрифты предоставлены компанией «ПараТайп»\nㅤ. — [б. м.] : [б. и.], 2023. — 18 с.\n[б. н.]\nУДК 82-1\nББК 84-5\n0+\nВ соответствии с ФЗ от 29.12.2010 №436-ФЗ\n",
+      "image": "data/images/11/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "***\nвойне\n",
+      "image": "data/images/11/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "***\nгенерал-полковник\n",
+      "image": "data/images/11/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "***\nсамсунг\n",
+      "image": "data/images/11/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "***\nПокрышкин\n",
+      "image": "data/images/11/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "***\nКожедуб\n",
+      "image": "data/images/11/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "***\nБрежнев\n",
+      "image": "data/images/11/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "***\nБрежнев\n",
+      "image": "data/images/11/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "***\nБрежнев\n",
+      "image": "data/images/11/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "***\nБрежнев\n",
+      "image": "data/images/11/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "**\nCollonges-au-Mont-d’Or, France\n€€€€ · Classic Cuisine\nReserve a table1\n1 https://guide.michelin.com/en/auvergne-rhone-alpes/collonges-au\n-mont-d-or/restaurant/paul-bocuse\n",
+      "image": "data/images/11/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "***\n",
+      "image": "data/images/11/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "***\n",
+      "image": "data/images/11/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "***\n הבדלה\n",
+      "image": "data/images/11/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "ㅤ\n",
+      "image": "data/images/11/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": null,
+      "image": "data/images/11/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "ㅤ\nСоздано в интеллектуальной издательской системе Ridero\nОбложка Кирилл Блажков\n",
+      "image": "data/images/11/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": null,
+      "image": "data/images/11/page_20.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 3,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": "Paul Bocuse",
+      "type": "text"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": "Юрий Визбор",
+      "type": "text"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": "Маргарита Алигер",
+      "type": "text"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}

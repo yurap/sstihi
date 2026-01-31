@@ -1,0 +1,182 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/8/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": null,
+      "image": "data/images/8/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "In Hallstatt\nIn Hallstatt, wo die Schönheit thront,\nWo Berge sich im See betrachten,\nMeine Seele dennoch einsam wohnt,\nKann Trost in Pracht nicht finden, nicht beachten.\nDie Welt zeigt hier ihr schönstes Kleid,\nDoch mein Herz bleibt kalt und leer.\nGibt’s keinen Ort, der mich befreit?\nSchönheit tröstet mich nicht mehr.\n",
+      "image": "data/images/8/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "***\nMein Vaterland liegt tief in meiner Seele, \nBegreift ihr’s? Visalos ich drüber schwebe. \nReich mir die Hand, wir fliegen über Witebsk, \nSchade, dass ihr nicht stammt aus Witebsk.\n",
+      "image": "data/images/8/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "Tanka\nWeide neigt sich und schläft,\nUnd mir scheint, die Nachtigall am Zweig \n—Das ist ihre Seele.\nKeine Übersetzung fand ich,\nMusste selbst es übersetzen.\n",
+      "image": "data/images/8/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "Seelenwanderung\nSchlimmer als das Nichts\nist der Seele Wanderung.\nNeue Namen, fremde Gesichter, \nsogar das eigene Ich — unbekannt.\nEine Sprache zu lernen,\nsich selbst neu zu finden,\nnur um verloren zu gehen.\nDie scheue Seele zittert.\nNein, besser das Nichtsein,\noder zur Not die Ewigkeit.\nDenn Anpassung ist schwerer\nals jede Unendlichkeit.\n",
+      "image": "data/images/8/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "***\nAuf einer Ausstellung, ich bat um Erlaubnis, \nZu fotografieren, der Künstler gab sie gern. \nDoch als er von meiner KI-Arbeit erfuhr, \nWurde sein Blick plötzlich ernst und fern.\nEr sprach: «Kunst braucht eine Seele, das ist klar, \nKI kann das nie, sie bleibt seelenlos.»\nAuf seiner Karte stand, ich las es bar:\n«Max Mustermann. Kunst mit Seele» — grandios.\n",
+      "image": "data/images/8/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "***\nOrgel und Sirene im Duett,\nEin ASMR für meine Seele — so nett.\n",
+      "image": "data/images/8/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "***\nD.K. sagte zur Autorin: «Sie haben keine Seele, \nNur armselige Stereotypen, nichts weiter.» \nUnd ich lachte: über mich selbst.\n",
+      "image": "data/images/8/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "***\n«Angeln ist kein Hobby,\nkeine Gewohnheit und schon gar nicht \neinfach nur der Wunsch,\netwas zu tun\nin der Freizeit.\nAngeln ist der Poesie verwandt.\nEs ist ein Zustand\nder menschlichen Seele.»\n",
+      "image": "data/images/8/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "***\nIch glaube, ich habe kein einziges Gedicht, \nDas in sich das Wort «Seele» enthält. Kein \nVers, keine Zeile, die davon spricht, \nObwohl es oft in meinen Gedanken zählt.\nDoch viele Entwürfe liegen still bereit.\n",
+      "image": "data/images/8/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "***\nSanft wie ein Windhauch, leise und rein, \nEwig suchend nach Licht und Sein. \nErkenntnis wächst in stillen Stunden, \nLebendig wird, was tief empfunden. \nEinheit von Geist und Herz — vereint.\n",
+      "image": "data/images/8/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "***\nDer Poltergeist, er schreckt uns sehr,\nWir fürchten uns und zittern schwer. \nDoch denk ich nach, ist’s gar nicht schlecht, \nWenn Geister wahr sind — überlegt:\nGibt’s Poltergeister wirklich hier,\nDann gibt’s viel mehr, das glauben wir. Die \nSeele auch, sie könnte sein,\nNicht nur ein Traum, nicht nur ein Schein.\nSo lasst uns hoffen, lasst uns glauben,\nAn mehr als wir je können schauen.\nDer Geist, die Seele — mehr als Spuk,\nSie geben unserem Leben Schmuck.\n",
+      "image": "data/images/8/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "Der Morgen\nIn der Frühe, still und klar, \nScheint die Sonne wunderbar. \nVögel singen ihre Lieder, \nFliegen auf und kehren wieder.\nAuf der Wiese, frisch und grün, \nSehe ich die Blumen blüh’n. \nWind spielt sanft mit jedem Blatt, \nMacht die müde Seele satt.\n",
+      "image": "data/images/8/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": null,
+      "image": "data/images/8/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": null,
+      "image": "data/images/8/page_16.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}

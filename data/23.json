@@ -1,0 +1,242 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/23/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": "…………\n",
+      "image": "data/images/23/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "УДК 82-1\nББК 84-5\nШ88\nШрифты предоставлены компанией «ПараТайп»\nШтейнер Сергей\n………… / Сергей Штейнер. — [б. м.] : [б. и.], 2023. — 20 с.\n[б. н.]\nЗадумано было интересно. Стишки полуполитического толка захеши-\nрованы SHA-256. На всякий случай. Но с февраля 2022 года это утратило\nвсе свои последние смыслы. Так что книжку оставляю как есть, недоде-\nланной, больше хешировать ничего не буду. Максимум выпущу книгу\nпереводов на SHA-3. Благодарю за внимание!\nШ88\nУДК 82-1\nББК 84-5\n18+\nВ соответствии с ФЗ от 29.12.2010 №436-ФЗ\n© Сергей Штейнер, 2023\n",
+      "image": "data/images/23/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "* * *\n1834a27c0fbaee19\n54bca846fc83fa99\n7bf95180a231657c\n1e0403c466567d52\n",
+      "image": "data/images/23/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "* * *\n35dfff19c747083b\nf3b645552a105449\n9cac6dced1533c17\nc97ca00c4648e292\n",
+      "image": "data/images/23/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "* * *\n4f7ee7f970de1a51\ne10e71151ed9c9d8\n777e3854dd318052\n4de2beb6cf07e99f\n",
+      "image": "data/images/23/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "* * *\n52d6568a400bb733\nbee69960f2c1802f\n6002ba83ebd47522\n3dc07c65cddac1db\n",
+      "image": "data/images/23/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "* * *\n53d83d38204c4e76\n9c6a399a4ab28646\n48638e6d65f08d3a\n69a5805baad3002f\n",
+      "image": "data/images/23/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "* * *\n7c11831011dce231\ne10d6bbcc08d7ded\n7591a608f1d299a3\na4de9531a4d22301\n",
+      "image": "data/images/23/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "* * *\n84618f9d1a0652ab\ne57715c1486b3748\n4a325c99ccd1e67d\n1aa87e11454ca24e\n",
+      "image": "data/images/23/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "* * *\n8ab82b978098bcb6\n69bc4adbce815ed6\n9a2ef3601ce2072a\n890cc8f1ee10853e\n",
+      "image": "data/images/23/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "* * *\n8e659ff280ccf173\ndb1ff7137953a6c9\nf9e91dcb5cb4969e\nfc0c285f06116319\n",
+      "image": "data/images/23/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "* * *\na3e95872c6f4faeb\n048bd79ef76eaad7\n6b10d257b7cbc6b0\n4fe58d1d21a1d345\n",
+      "image": "data/images/23/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "* * *\nb782a7849e90b3f1\n37077fd29f4ff2ff\n47db92df03a57f04\n72ea056f5f71131e\n",
+      "image": "data/images/23/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "* * *\nd2223aca3c204397\ncf299e5a325a341e\n43f6f29d5760c02c\n702e2873e5d28724\n",
+      "image": "data/images/23/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "* * *\nd561739bd88f9ef4\n547ccde2d82d5941\nffa414d54f1edd9b\n7ba6616771e3b17e\n",
+      "image": "data/images/23/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "* * *\necaa3fc96463c156\n9a36026f1d94f6dc\nb01312ca6630e7b9\nf419fd8436e4fb58\n",
+      "image": "data/images/23/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "* * *\ned09c62d4c0c14e3\na7d07dba41826005\n04460e2714b2a7e2\ne7a2c707adb99344\n",
+      "image": "data/images/23/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "* * *\ne3b0c44298fc1c14\n9afbf4c8996fb924\n27ae41e4649b934c\na495991b7852b855\n",
+      "image": "data/images/23/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "Оглавление\n«1834a27c0fbaee19…»\n3\n«35dfff19c747083b…»\n4\n«4f7ee7f970de1a51…»\n5\n«52d6568a400bb733…»\n6\n«53d83d38204c4e76…»\n7\n«7c11831011dce231…»\n8\n«84618f9d1a0652ab…»\n9\n«8ab82b978098bcb6…»\n10\n«8e659ff280ccf173…»\n11\n«a3e95872c6f4faeb…»\n12\n«b782a7849e90b3f1…»\n13\n«d2223aca3c204397…»\n14\n«d561739bd88f9ef4…»\n15\n«ecaa3fc96463c156…»\n16\n«ed09c62d4c0c14e3…»\n17\n«e3b0c44298fc1c14…»\n",
+      "image": "data/images/23/page_20.png"
+    },
+    {
+      "page": 21,
+      "text": "…………\nСоздано в интеллектуальной издательской системе Ridero\n",
+      "image": "data/images/23/page_21.png"
+    },
+    {
+      "page": 22,
+      "text": null,
+      "image": "data/images/23/page_22.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": "Сергей Штейнер",
+      "type": "text"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "tech"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 19,
+      "end": 20,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 21,
+      "end": 21,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 22,
+      "end": 22,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}

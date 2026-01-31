@@ -1,0 +1,2330 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/34/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": "Человек\nЗа решёткой\nзвёзд\n",
+      "image": "data/images/34/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "УДК 82-1\nББК 84-5\nШ88\nШрифты предоставлены компанией «ПараТайп»\nШтейнер Сергей\nЧеловек За решёткой звёзд / Сергей Штейнер. — [б. м.] :\n[б. и.], 2023. — 212 с.\n[б. н.]\nЯ так и не придумал название этому жанру. Может и не надо: вообще гово-\nря, это частный случай блэкаута, минус графика. Первая и последняя строки\nстихотворения. Дизайн обложки Ильи Дика.\nШ88\nУДК 82-1\nББК 84-5\n0+\nВ соответствии с ФЗ от 29.12.2010 №436-ФЗ\n© Сергей Штейнер, 2023\n© Илья Дик, дизайн обложки, 2023\n",
+      "image": "data/images/34/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": null,
+      "image": "data/images/34/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": null,
+      "image": "data/images/34/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "СТИХОТВОРЕНИЕ-\nНАЗВАНИЕ: БЕЛАЯ\nБАБОЧКА,\nПЕРЕЛЕТАЮЩАЯ ЧЕРЕЗ\nСЖАТОЕ ПОЛЕ\nIndexError: list index out of range\nIndexError: list index out of range\n",
+      "image": "data/images/34/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": null,
+      "image": "data/images/34/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": null,
+      "image": "data/images/34/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": null,
+      "image": "data/images/34/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "* * *\nАх, как же я в детстве любил поезда,\nУмчались. И, кажется, навсегда…\n",
+      "image": "data/images/34/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "* * *\nСкажите, способен ли патриот\nНе этой страны, а другой.\n",
+      "image": "data/images/34/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "* * *\nМы решили с тобой дружить,\nЯ по опыту это знаю…\n",
+      "image": "data/images/34/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": null,
+      "image": "data/images/34/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": null,
+      "image": "data/images/34/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": null,
+      "image": "data/images/34/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "* * *\nВсе в Москве пропитано стихами,\nЗаглушая самый громкий звук.\n",
+      "image": "data/images/34/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": null,
+      "image": "data/images/34/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": null,
+      "image": "data/images/34/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": null,
+      "image": "data/images/34/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "* * *\nмир\nи ничего лишнего\n",
+      "image": "data/images/34/page_20.png"
+    },
+    {
+      "page": 21,
+      "text": null,
+      "image": "data/images/34/page_21.png"
+    },
+    {
+      "page": 22,
+      "text": "Николай\nБарабанов\n",
+      "image": "data/images/34/page_22.png"
+    },
+    {
+      "page": 23,
+      "text": null,
+      "image": "data/images/34/page_23.png"
+    },
+    {
+      "page": 24,
+      "text": "* * *\nя отправился на птичий рынок\nи себя недорого продал\n",
+      "image": "data/images/34/page_24.png"
+    },
+    {
+      "page": 25,
+      "text": null,
+      "image": "data/images/34/page_25.png"
+    },
+    {
+      "page": 26,
+      "text": null,
+      "image": "data/images/34/page_26.png"
+    },
+    {
+      "page": 27,
+      "text": null,
+      "image": "data/images/34/page_27.png"
+    },
+    {
+      "page": 28,
+      "text": "* * *\nВ осеннем лесу я слонялся, гуляя\nс прозрачной буддийской душой.\n",
+      "image": "data/images/34/page_28.png"
+    },
+    {
+      "page": 29,
+      "text": null,
+      "image": "data/images/34/page_29.png"
+    },
+    {
+      "page": 30,
+      "text": null,
+      "image": "data/images/34/page_30.png"
+    },
+    {
+      "page": 31,
+      "text": null,
+      "image": "data/images/34/page_31.png"
+    },
+    {
+      "page": 32,
+      "text": "* * *\nСредиземное море теряет ритм,\nИоганн Себастьян Бах.\n",
+      "image": "data/images/34/page_32.png"
+    },
+    {
+      "page": 33,
+      "text": null,
+      "image": "data/images/34/page_33.png"
+    },
+    {
+      "page": 34,
+      "text": null,
+      "image": "data/images/34/page_34.png"
+    },
+    {
+      "page": 35,
+      "text": null,
+      "image": "data/images/34/page_35.png"
+    },
+    {
+      "page": 36,
+      "text": "* * *\nДевушка пела в церковном хоре\nО том, что никто не придет назад.\n",
+      "image": "data/images/34/page_36.png"
+    },
+    {
+      "page": 37,
+      "text": null,
+      "image": "data/images/34/page_37.png"
+    },
+    {
+      "page": 38,
+      "text": null,
+      "image": "data/images/34/page_38.png"
+    },
+    {
+      "page": 39,
+      "text": null,
+      "image": "data/images/34/page_39.png"
+    },
+    {
+      "page": 40,
+      "text": "* * *\nДорогу развезло\nв природу.\n",
+      "image": "data/images/34/page_40.png"
+    },
+    {
+      "page": 41,
+      "text": "* * *\nТебе, когда мой голос отзвучит\nи подтвердит, что это вправду ночь.\n",
+      "image": "data/images/34/page_41.png"
+    },
+    {
+      "page": 42,
+      "text": "* * *\nТри старухи с вязаньем в глубоких\nкреслах\nдаже тогда, когда света нет.\n",
+      "image": "data/images/34/page_42.png"
+    },
+    {
+      "page": 43,
+      "text": null,
+      "image": "data/images/34/page_43.png"
+    },
+    {
+      "page": 44,
+      "text": null,
+      "image": "data/images/34/page_44.png"
+    },
+    {
+      "page": 45,
+      "text": null,
+      "image": "data/images/34/page_45.png"
+    },
+    {
+      "page": 46,
+      "text": "* * *\nМир наполняют\nуцелевшие чудом\n",
+      "image": "data/images/34/page_46.png"
+    },
+    {
+      "page": 47,
+      "text": null,
+      "image": "data/images/34/page_47.png"
+    },
+    {
+      "page": 48,
+      "text": null,
+      "image": "data/images/34/page_48.png"
+    },
+    {
+      "page": 49,
+      "text": null,
+      "image": "data/images/34/page_49.png"
+    },
+    {
+      "page": 50,
+      "text": "* * *\nЖизнь выше литературы для всех, кому\nжизни нет.\n",
+      "image": "data/images/34/page_50.png"
+    },
+    {
+      "page": 51,
+      "text": null,
+      "image": "data/images/34/page_51.png"
+    },
+    {
+      "page": 52,
+      "text": null,
+      "image": "data/images/34/page_52.png"
+    },
+    {
+      "page": 53,
+      "text": null,
+      "image": "data/images/34/page_53.png"
+    },
+    {
+      "page": 54,
+      "text": "* * *\nИ кожей одной и то ты единственна.\nИ кожей одной и то ты единственна.\n",
+      "image": "data/images/34/page_54.png"
+    },
+    {
+      "page": 55,
+      "text": null,
+      "image": "data/images/34/page_55.png"
+    },
+    {
+      "page": 56,
+      "text": null,
+      "image": "data/images/34/page_56.png"
+    },
+    {
+      "page": 57,
+      "text": null,
+      "image": "data/images/34/page_57.png"
+    },
+    {
+      "page": 58,
+      "text": "* * *\nЛюби меня таким, каков\nне представляет интереса.\n",
+      "image": "data/images/34/page_58.png"
+    },
+    {
+      "page": 59,
+      "text": null,
+      "image": "data/images/34/page_59.png"
+    },
+    {
+      "page": 60,
+      "text": null,
+      "image": "data/images/34/page_60.png"
+    },
+    {
+      "page": 61,
+      "text": null,
+      "image": "data/images/34/page_61.png"
+    },
+    {
+      "page": 62,
+      "text": "* * *\nНочь\nИ мухи крик.\n",
+      "image": "data/images/34/page_62.png"
+    },
+    {
+      "page": 63,
+      "text": null,
+      "image": "data/images/34/page_63.png"
+    },
+    {
+      "page": 64,
+      "text": null,
+      "image": "data/images/34/page_64.png"
+    },
+    {
+      "page": 65,
+      "text": null,
+      "image": "data/images/34/page_65.png"
+    },
+    {
+      "page": 66,
+      "text": "* * *\nЕсть страна Египет —\nдорогая — ты.\n",
+      "image": "data/images/34/page_66.png"
+    },
+    {
+      "page": 67,
+      "text": null,
+      "image": "data/images/34/page_67.png"
+    },
+    {
+      "page": 68,
+      "text": null,
+      "image": "data/images/34/page_68.png"
+    },
+    {
+      "page": 69,
+      "text": null,
+      "image": "data/images/34/page_69.png"
+    },
+    {
+      "page": 70,
+      "text": "* * *\nСидел я в камере-одиночке,\nДругой человечек лысый.\n",
+      "image": "data/images/34/page_70.png"
+    },
+    {
+      "page": 71,
+      "text": null,
+      "image": "data/images/34/page_71.png"
+    },
+    {
+      "page": 72,
+      "text": "Юрий\nДомбровский\n",
+      "image": "data/images/34/page_72.png"
+    },
+    {
+      "page": 73,
+      "text": null,
+      "image": "data/images/34/page_73.png"
+    },
+    {
+      "page": 74,
+      "text": "* * *\nЯ был знаком с берлинским палачом,\nМне нечего сказать: он был чекистом.\n",
+      "image": "data/images/34/page_74.png"
+    },
+    {
+      "page": 75,
+      "text": null,
+      "image": "data/images/34/page_75.png"
+    },
+    {
+      "page": 76,
+      "text": null,
+      "image": "data/images/34/page_76.png"
+    },
+    {
+      "page": 77,
+      "text": null,
+      "image": "data/images/34/page_77.png"
+    },
+    {
+      "page": 78,
+      "text": "* * *\nТут птицы пролетают стаями\nОсенние стихи.\n",
+      "image": "data/images/34/page_78.png"
+    },
+    {
+      "page": 79,
+      "text": null,
+      "image": "data/images/34/page_79.png"
+    },
+    {
+      "page": 80,
+      "text": null,
+      "image": "data/images/34/page_80.png"
+    },
+    {
+      "page": 81,
+      "text": null,
+      "image": "data/images/34/page_81.png"
+    },
+    {
+      "page": 82,
+      "text": "* * *\nНе одиночествовать, а единствовать\nСвой организм.\n",
+      "image": "data/images/34/page_82.png"
+    },
+    {
+      "page": 83,
+      "text": null,
+      "image": "data/images/34/page_83.png"
+    },
+    {
+      "page": 84,
+      "text": null,
+      "image": "data/images/34/page_84.png"
+    },
+    {
+      "page": 85,
+      "text": null,
+      "image": "data/images/34/page_85.png"
+    },
+    {
+      "page": 86,
+      "text": "Батум\nКорабли плывут\nВ очарованную даль.\n",
+      "image": "data/images/34/page_86.png"
+    },
+    {
+      "page": 87,
+      "text": null,
+      "image": "data/images/34/page_87.png"
+    },
+    {
+      "page": 88,
+      "text": "Николай\nЗаболоцкий\n",
+      "image": "data/images/34/page_88.png"
+    },
+    {
+      "page": 89,
+      "text": null,
+      "image": "data/images/34/page_89.png"
+    },
+    {
+      "page": 90,
+      "text": "* * *\nЛюбите живопись, поэты!\nЕе прекрасные глаза.\n",
+      "image": "data/images/34/page_90.png"
+    },
+    {
+      "page": 91,
+      "text": null,
+      "image": "data/images/34/page_91.png"
+    },
+    {
+      "page": 92,
+      "text": null,
+      "image": "data/images/34/page_92.png"
+    },
+    {
+      "page": 93,
+      "text": null,
+      "image": "data/images/34/page_93.png"
+    },
+    {
+      "page": 94,
+      "text": "* * *\nОна лежала на кровати,\nИ здесь я мог ее понять.\n",
+      "image": "data/images/34/page_94.png"
+    },
+    {
+      "page": 95,
+      "text": null,
+      "image": "data/images/34/page_95.png"
+    },
+    {
+      "page": 96,
+      "text": "Константин\nКедров\n",
+      "image": "data/images/34/page_96.png"
+    },
+    {
+      "page": 97,
+      "text": null,
+      "image": "data/images/34/page_97.png"
+    },
+    {
+      "page": 98,
+      "text": "* * *\nЗемля летела\nкак хотела\n",
+      "image": "data/images/34/page_98.png"
+    },
+    {
+      "page": 99,
+      "text": null,
+      "image": "data/images/34/page_99.png"
+    },
+    {
+      "page": 100,
+      "text": null,
+      "image": "data/images/34/page_100.png"
+    },
+    {
+      "page": 101,
+      "text": null,
+      "image": "data/images/34/page_101.png"
+    },
+    {
+      "page": 102,
+      "text": "* * *\nВечер фиолетовый.\nС буквами СССР.\n",
+      "image": "data/images/34/page_102.png"
+    },
+    {
+      "page": 103,
+      "text": null,
+      "image": "data/images/34/page_103.png"
+    },
+    {
+      "page": 104,
+      "text": "Евгений\nКропивницкий\n",
+      "image": "data/images/34/page_104.png"
+    },
+    {
+      "page": 105,
+      "text": null,
+      "image": "data/images/34/page_105.png"
+    },
+    {
+      "page": 106,
+      "text": "* * *\nМне очень нравится, когда\nВезде туман, везде вода.\n",
+      "image": "data/images/34/page_106.png"
+    },
+    {
+      "page": 107,
+      "text": null,
+      "image": "data/images/34/page_107.png"
+    },
+    {
+      "page": 108,
+      "text": null,
+      "image": "data/images/34/page_108.png"
+    },
+    {
+      "page": 109,
+      "text": null,
+      "image": "data/images/34/page_109.png"
+    },
+    {
+      "page": 110,
+      "text": "* * *\n«Поэт — шпион Господень», —\nПусть считается, что это сказала я.\n",
+      "image": "data/images/34/page_110.png"
+    },
+    {
+      "page": 111,
+      "text": null,
+      "image": "data/images/34/page_111.png"
+    },
+    {
+      "page": 112,
+      "text": null,
+      "image": "data/images/34/page_112.png"
+    },
+    {
+      "page": 113,
+      "text": null,
+      "image": "data/images/34/page_113.png"
+    },
+    {
+      "page": 114,
+      "text": "* * *\nМой отрицательный герой\nНа темной улице любой.\n",
+      "image": "data/images/34/page_114.png"
+    },
+    {
+      "page": 115,
+      "text": null,
+      "image": "data/images/34/page_115.png"
+    },
+    {
+      "page": 116,
+      "text": "Герман\nЛукомников\n",
+      "image": "data/images/34/page_116.png"
+    },
+    {
+      "page": 117,
+      "text": null,
+      "image": "data/images/34/page_117.png"
+    },
+    {
+      "page": 118,
+      "text": "* * *\nЯ с боями дошёл до Берлина\nхлеба купить\n",
+      "image": "data/images/34/page_118.png"
+    },
+    {
+      "page": 119,
+      "text": null,
+      "image": "data/images/34/page_119.png"
+    },
+    {
+      "page": 120,
+      "text": "Осип\nМандельштам\n",
+      "image": "data/images/34/page_120.png"
+    },
+    {
+      "page": 121,
+      "text": null,
+      "image": "data/images/34/page_121.png"
+    },
+    {
+      "page": 122,
+      "text": "* * *\nДовольно лукавить: я знаю,\nГрядущая вечность моя!\n",
+      "image": "data/images/34/page_122.png"
+    },
+    {
+      "page": 123,
+      "text": "* * *\nЗвук осторожный и глухой\nГлубокой тишины лесной…\n",
+      "image": "data/images/34/page_123.png"
+    },
+    {
+      "page": 124,
+      "text": "* * *\nНе говорите мне о вечности —\nО милом и ничтожном думая.\n",
+      "image": "data/images/34/page_124.png"
+    },
+    {
+      "page": 125,
+      "text": null,
+      "image": "data/images/34/page_125.png"
+    },
+    {
+      "page": 126,
+      "text": "Владимир\nМаяковский\n",
+      "image": "data/images/34/page_126.png"
+    },
+    {
+      "page": 127,
+      "text": null,
+      "image": "data/images/34/page_127.png"
+    },
+    {
+      "page": 128,
+      "text": "ВАМ!\nВам, проживающим за оргией оргию,\nподавать ананасную воду!\n",
+      "image": "data/images/34/page_128.png"
+    },
+    {
+      "page": 129,
+      "text": "Мечта поэта\nПоэзия\nвыигрышного\nзайма.\n",
+      "image": "data/images/34/page_129.png"
+    },
+    {
+      "page": 130,
+      "text": null,
+      "image": "data/images/34/page_130.png"
+    },
+    {
+      "page": 131,
+      "text": null,
+      "image": "data/images/34/page_131.png"
+    },
+    {
+      "page": 132,
+      "text": "* * *\nМолодые девушки\nи весенние ручейки.\n",
+      "image": "data/images/34/page_132.png"
+    },
+    {
+      "page": 133,
+      "text": null,
+      "image": "data/images/34/page_133.png"
+    },
+    {
+      "page": 134,
+      "text": null,
+      "image": "data/images/34/page_134.png"
+    },
+    {
+      "page": 135,
+      "text": null,
+      "image": "data/images/34/page_135.png"
+    },
+    {
+      "page": 136,
+      "text": "* * *\nВот музыка та, под которую\nмы будем беседовать с ней.\n",
+      "image": "data/images/34/page_136.png"
+    },
+    {
+      "page": 137,
+      "text": null,
+      "image": "data/images/34/page_137.png"
+    },
+    {
+      "page": 138,
+      "text": null,
+      "image": "data/images/34/page_138.png"
+    },
+    {
+      "page": 139,
+      "text": null,
+      "image": "data/images/34/page_139.png"
+    },
+    {
+      "page": 140,
+      "text": "МИЛОЕ ПРОИСШЕСТВИЕ\nВ ТРАМВАЕ\nОсвободилось место —\nу меня на коленях.\n",
+      "image": "data/images/34/page_140.png"
+    },
+    {
+      "page": 141,
+      "text": null,
+      "image": "data/images/34/page_141.png"
+    },
+    {
+      "page": 142,
+      "text": null,
+      "image": "data/images/34/page_142.png"
+    },
+    {
+      "page": 143,
+      "text": null,
+      "image": "data/images/34/page_143.png"
+    },
+    {
+      "page": 144,
+      "text": "* * *\nЭто — круто налившийся свист,\nАн вселенная — место глухое.\n",
+      "image": "data/images/34/page_144.png"
+    },
+    {
+      "page": 145,
+      "text": null,
+      "image": "data/images/34/page_145.png"
+    },
+    {
+      "page": 146,
+      "text": "Дмитрий\nАлександрович\nПригов\n",
+      "image": "data/images/34/page_146.png"
+    },
+    {
+      "page": 147,
+      "text": null,
+      "image": "data/images/34/page_147.png"
+    },
+    {
+      "page": 148,
+      "text": "* * *\nЯ глянул в зеркало с утра\nИ страшно стало\n",
+      "image": "data/images/34/page_148.png"
+    },
+    {
+      "page": 149,
+      "text": "* * *\nВот День Рыбака — это День Рыбака\nА сам он — какой-то рыбак.\n",
+      "image": "data/images/34/page_149.png"
+    },
+    {
+      "page": 150,
+      "text": "* * *\nВ последнее время я стал замечать\nИ чуть не поддался Отчаянью\n",
+      "image": "data/images/34/page_150.png"
+    },
+    {
+      "page": 151,
+      "text": "* * *\nЯ вышел в сад светящийся как призма\nСоциализма\n",
+      "image": "data/images/34/page_151.png"
+    },
+    {
+      "page": 152,
+      "text": "* * *\nКак я понимаю — при плановой системе\nЗа это у нас полагается расстрел\n",
+      "image": "data/images/34/page_152.png"
+    },
+    {
+      "page": 153,
+      "text": "* * *\nВыходит слесарь в зимний двор\nА перед тем — как есть он слесарь\n",
+      "image": "data/images/34/page_153.png"
+    },
+    {
+      "page": 154,
+      "text": "* * *\nОни живут не думая\nА с легкостью живут\n",
+      "image": "data/images/34/page_154.png"
+    },
+    {
+      "page": 155,
+      "text": null,
+      "image": "data/images/34/page_155.png"
+    },
+    {
+      "page": 156,
+      "text": "Александр\n",
+      "image": "data/images/34/page_156.png"
+    },
+    {
+      "page": 157,
+      "text": null,
+      "image": "data/images/34/page_157.png"
+    },
+    {
+      "page": 158,
+      "text": "Евгений Онегин\nНе мысля гордый свет забавить,\nКак я с Онегиным моим.\n",
+      "image": "data/images/34/page_158.png"
+    },
+    {
+      "page": 159,
+      "text": "* * *\nЯ вас любил: любовь еще, быть может,\nКак дай вам бог любимой быть другим\n",
+      "image": "data/images/34/page_159.png"
+    },
+    {
+      "page": 160,
+      "text": null,
+      "image": "data/images/34/page_160.png"
+    },
+    {
+      "page": 161,
+      "text": null,
+      "image": "data/images/34/page_161.png"
+    },
+    {
+      "page": 162,
+      "text": "Любовь\nВот уж был день! Пришло\n«любовь»?\n",
+      "image": "data/images/34/page_162.png"
+    },
+    {
+      "page": 163,
+      "text": "Капли\nТвоя благодать наполняет\nкапли.\n",
+      "image": "data/images/34/page_163.png"
+    },
+    {
+      "page": 164,
+      "text": "Подвиг\nВолнением весь расцвеченный,\nподвиг!\n",
+      "image": "data/images/34/page_164.png"
+    },
+    {
+      "page": 165,
+      "text": "Поверить?\nНаконец мы узнали,\nповерить?\n",
+      "image": "data/images/34/page_165.png"
+    },
+    {
+      "page": 166,
+      "text": null,
+      "image": "data/images/34/page_166.png"
+    },
+    {
+      "page": 167,
+      "text": null,
+      "image": "data/images/34/page_167.png"
+    },
+    {
+      "page": 168,
+      "text": "МАЛЕНЬКАЯ НОЧНАЯ\nСЕРЕНАДА\nСоловей мой, соловей\nПоявился средь ветвей!\n(Аплодисменты.)\n",
+      "image": "data/images/34/page_168.png"
+    },
+    {
+      "page": 169,
+      "text": "«ЭТО Я»\nЭто я.\n(Уходит)\n",
+      "image": "data/images/34/page_169.png"
+    },
+    {
+      "page": 170,
+      "text": null,
+      "image": "data/images/34/page_170.png"
+    },
+    {
+      "page": 171,
+      "text": null,
+      "image": "data/images/34/page_171.png"
+    },
+    {
+      "page": 172,
+      "text": "* * *\nПрежде, чем на тракторе разбиться,\nя не вспоминаю никогда.\n",
+      "image": "data/images/34/page_172.png"
+    },
+    {
+      "page": 173,
+      "text": "* * *\nСтоял обычный зимний день,\nсто лет назад в ладонь упавший.\n",
+      "image": "data/images/34/page_173.png"
+    },
+    {
+      "page": 174,
+      "text": "Константин\nСимонов\n",
+      "image": "data/images/34/page_174.png"
+    },
+    {
+      "page": 175,
+      "text": null,
+      "image": "data/images/34/page_175.png"
+    },
+    {
+      "page": 176,
+      "text": "* * *\nЖди меня, и я вернусь.\nКак никто другой.\n",
+      "image": "data/images/34/page_176.png"
+    },
+    {
+      "page": 177,
+      "text": null,
+      "image": "data/images/34/page_177.png"
+    },
+    {
+      "page": 178,
+      "text": "Сергей\nСтратановский\n",
+      "image": "data/images/34/page_178.png"
+    },
+    {
+      "page": 179,
+      "text": null,
+      "image": "data/images/34/page_179.png"
+    },
+    {
+      "page": 180,
+      "text": "* * *\nВот и спросили у тишины,\n«Хотим, хотим» — ответили.\n",
+      "image": "data/images/34/page_180.png"
+    },
+    {
+      "page": 181,
+      "text": null,
+      "image": "data/images/34/page_181.png"
+    },
+    {
+      "page": 182,
+      "text": "Алексей\nФатьянов\n",
+      "image": "data/images/34/page_182.png"
+    },
+    {
+      "page": 183,
+      "text": null,
+      "image": "data/images/34/page_183.png"
+    },
+    {
+      "page": 184,
+      "text": "* * *\nТишина за Рогожской заставою.\nСемиструнной гитары моей.\n",
+      "image": "data/images/34/page_184.png"
+    },
+    {
+      "page": 185,
+      "text": null,
+      "image": "data/images/34/page_185.png"
+    },
+    {
+      "page": 186,
+      "text": "Всеволод\nФедотов\n",
+      "image": "data/images/34/page_186.png"
+    },
+    {
+      "page": 187,
+      "text": null,
+      "image": "data/images/34/page_187.png"
+    },
+    {
+      "page": 188,
+      "text": "* * *\nВ следующей жизни\nВсегда.\n",
+      "image": "data/images/34/page_188.png"
+    },
+    {
+      "page": 189,
+      "text": null,
+      "image": "data/images/34/page_189.png"
+    },
+    {
+      "page": 190,
+      "text": "Владислав\nХодасевич\n",
+      "image": "data/images/34/page_190.png"
+    },
+    {
+      "page": 191,
+      "text": null,
+      "image": "data/images/34/page_191.png"
+    },
+    {
+      "page": 192,
+      "text": "* * *\nСчастливая примета:\nВздохнуть о чем-нибудь.\n",
+      "image": "data/images/34/page_192.png"
+    },
+    {
+      "page": 193,
+      "text": null,
+      "image": "data/images/34/page_193.png"
+    },
+    {
+      "page": 194,
+      "text": null,
+      "image": "data/images/34/page_194.png"
+    },
+    {
+      "page": 195,
+      "text": null,
+      "image": "data/images/34/page_195.png"
+    },
+    {
+      "page": 196,
+      "text": "* * *\nЕсли вы смотрите\nПеред вами Холин\n",
+      "image": "data/images/34/page_196.png"
+    },
+    {
+      "page": 197,
+      "text": "* * *\nЧеловек\nЗа решеткой звезд\n",
+      "image": "data/images/34/page_197.png"
+    },
+    {
+      "page": 198,
+      "text": "Марина\nЦветаева\n",
+      "image": "data/images/34/page_198.png"
+    },
+    {
+      "page": 199,
+      "text": null,
+      "image": "data/images/34/page_199.png"
+    },
+    {
+      "page": 200,
+      "text": "* * *\nНежно-нежно, тонко-тонко\nХодит по сердцу пила.\n",
+      "image": "data/images/34/page_200.png"
+    },
+    {
+      "page": 201,
+      "text": null,
+      "image": "data/images/34/page_201.png"
+    },
+    {
+      "page": 202,
+      "text": null,
+      "image": "data/images/34/page_202.png"
+    },
+    {
+      "page": 203,
+      "text": null,
+      "image": "data/images/34/page_203.png"
+    },
+    {
+      "page": 204,
+      "text": "* * *\nКак любил я стихи Соколова!\nпосреди глубочайшей зимы.\n",
+      "image": "data/images/34/page_204.png"
+    },
+    {
+      "page": 205,
+      "text": null,
+      "image": "data/images/34/page_205.png"
+    },
+    {
+      "page": 206,
+      "text": "Оглавление\nГеннадий Айги\n3\nСТИХОТВОРЕНИЕ-НАЗВАНИЕ: БЕЛАЯ\nБАБОЧКА, ПЕРЕЛЕТАЮЩАЯ ЧЕРЕЗ\nСЖАТОЕ ПОЛЕ\n5\nЭдуард Асадов\n7\n«Ах, как же я в детстве любил\nпоезда…»\n9\n«Скажите, способен ли патриот…»\n10\n«Мы решили с тобой дружить…»\n11\nАнна Ахматова\n13\n«Все в Москве пропитано стихами…»\n15\nИван Ахметьев\n17\n«мир…»\n19\nНиколай Барабанов\n21\n«я отправился на птичий рынок…»\n23\nЛев Беринский\n25\n«В осеннем лесу я слонялся, гуляя…»\n27\nЕфим Бершин\n29\n«Средиземное море теряет ритм…»\n31\n33\n«Девушка пела в церковном хоре…»\n",
+      "image": "data/images/34/page_206.png"
+    },
+    {
+      "page": 207,
+      "text": "Иосиф Бродский\n37\n«Дорогу развезло…»\n39\n«Тебе, когда мой голос отзвучит…»\n40\n«Три старухи с вязаньем в глубоких\nкреслах…»\n41\nВладимир Бурич\n43\n«Мир наполняют…»\n45\nДмитрий Быков\n47\n«Жизнь выше литературы для всех,\nкому жизни нет…»\n49\nСамуил Вермель\n51\n«И кожей одной и то ты\nединственна…»\n53\nИгорь Волгин\n55\n«Люби меня таким, каков…»\n57\nСергей Вольф\n59\n«Ночь…»\n61\nНиколай Глазков\n63\n«Есть страна Египет …»\n65\n67\n«Сидел я в камере-одиночке…»\n",
+      "image": "data/images/34/page_207.png"
+    },
+    {
+      "page": 208,
+      "text": "Юрий Домбровский\n71\n«Я был знаком с берлинским\nпалачом…»\n73\nИван Елагин\n75\n«Тут птицы пролетают стаями…»\n77\nМихаил Ерёмин\n79\n«Не одиночествовать,\nа единствовать…»\n81\nСергей Есенин\n83\nБатум\n85\nНиколай Заболоцкий\n87\n«Любите живопись, поэты!..»\n89\nИгорь Иртеньев\n91\n«Она лежала на кровати…»\n93\nКонстантин Кедров\n95\n«Земля летела…»\n97\nТимур Кибиров\n99\n«Вечер фиолетовый…»\n101\nЕвгений Кропивницкий\n103\n«Мне очень нравится, когда…»\n105\n107\n«Поэт — шпион Господень», …»\n",
+      "image": "data/images/34/page_208.png"
+    },
+    {
+      "page": 209,
+      "text": "Эдуард Лимонов\n111\n«Мой отрицательный герой…»\n113\nГерман Лукомников\n115\n«Я с боями дошёл до Берлина…»\n117\nОсип Мандельштам\n119\n«Довольно лукавить: я знаю…»\n121\n«Звук осторожный и глухой…»\n122\n«Не говорите мне о вечности …»\n123\nВладимир Маяковский\n125\nВАМ!\n127\nМечта поэта\n128\nАрво Метс\n129\n«Молодые девушки…»\n131\nБулат Окуджава\n133\n«Вот музыка та, под которую…»\n135\nСергей Панов\n137\nМИЛОЕ ПРОИСШЕСТВИЕ В ТРАМВАЕ\n139\nБорис Пастернак\n141\n«Это — круто налившийся свист…»\n143\n145\n«Я глянул в зеркало с утра…»\n147\n«Вот День Рыбака — это День\nРыбака…»\n",
+      "image": "data/images/34/page_209.png"
+    },
+    {
+      "page": 210,
+      "text": "«В последнее время я стал\nзамечать…»\n149\n«Я вышел в сад светящийся как\nпризма…»\n150\n«Как я понимаю — при плановой\nсистеме…»\n151\n«Выходит слесарь в зимний двор…»\n152\n«Они живут не думая…»\n153\nАлександр Сергеевич Пушкин\n155\nЕвгений Онегин\n157\n«Я вас любил: любовь еще, быть\nможет…»\n158\nНиколай Рерих\n159\nЛюбовь\n161\nКапли\n162\nПодвиг\n163\nПоверить?\n164\nЛев Рубинштейн\n165\nМАЛЕНЬКАЯ НОЧНАЯ СЕРЕНАДА\n167\n«ЭТО Я»\n168\n169\n«Прежде, чем на тракторе\nразбиться…»\n",
+      "image": "data/images/34/page_210.png"
+    },
+    {
+      "page": 211,
+      "text": "«Стоял обычный зимний день…»\n172\nКонстантин Симонов\n173\n«Жди меня, и я вернусь…»\n175\nСергей Стратановский\n177\n«Вот и спросили у тишины…»\n179\nАлексей Фатьянов\n181\n«Тишина за Рогожской заставою…»\n183\nВсеволод Федотов\n185\n«В следующей жизни…»\n187\nВладислав Ходасевич\n189\n«Счастливая примета…»\n191\nИгорь Холин\n193\n«Если вы смотрите…»\n195\n«Человек…»\n196\nМарина Цветаева\n197\n«Нежно-нежно, тонко-тонко…»\n199\n201\n«Как любил я стихи Соколова!..»\n",
+      "image": "data/images/34/page_211.png"
+    },
+    {
+      "page": 212,
+      "text": null,
+      "image": "data/images/34/page_212.png"
+    },
+    {
+      "page": 213,
+      "text": "Человек За решёткой звёзд\nСоздано в интеллектуальной издательской системе Ridero\nДизайнер обложки Илья Дик\n",
+      "image": "data/images/34/page_213.png"
+    },
+    {
+      "page": 214,
+      "text": null,
+      "image": "data/images/34/page_214.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "tech"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": "Человек За решёткой звёзд",
+      "type": "text"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 21,
+      "end": 21,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 22,
+      "end": 22,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 23,
+      "end": 23,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 24,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 25,
+      "end": 25,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 26,
+      "end": 26,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 27,
+      "end": 27,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 28,
+      "end": 28,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 29,
+      "end": 29,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 30,
+      "end": 30,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 31,
+      "end": 31,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 32,
+      "end": 32,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 33,
+      "end": 33,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 34,
+      "end": 34,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 35,
+      "end": 35,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 36,
+      "end": 36,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 37,
+      "end": 37,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 38,
+      "end": 38,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 39,
+      "end": 39,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 40,
+      "end": 40,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 41,
+      "end": 41,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 42,
+      "end": 42,
+      "author": "Человек За решёткой звёзд",
+      "type": "text"
+    },
+    {
+      "start": 43,
+      "end": 43,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 44,
+      "end": 44,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 45,
+      "end": 45,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 46,
+      "end": 46,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 47,
+      "end": 47,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 48,
+      "end": 48,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 49,
+      "end": 49,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 50,
+      "end": 50,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 51,
+      "end": 51,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 52,
+      "end": 52,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 53,
+      "end": 53,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 54,
+      "end": 54,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 55,
+      "end": 55,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 56,
+      "end": 56,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 57,
+      "end": 57,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 58,
+      "end": 58,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 59,
+      "end": 59,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 60,
+      "end": 60,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 61,
+      "end": 61,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 62,
+      "end": 62,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 63,
+      "end": 63,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 64,
+      "end": 64,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 65,
+      "end": 65,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 66,
+      "end": 66,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 67,
+      "end": 67,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 68,
+      "end": 68,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 69,
+      "end": 69,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 70,
+      "end": 70,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 71,
+      "end": 71,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 72,
+      "end": 72,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 73,
+      "end": 73,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 74,
+      "end": 74,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 75,
+      "end": 75,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 76,
+      "end": 76,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 77,
+      "end": 77,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 78,
+      "end": 78,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 79,
+      "end": 79,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 80,
+      "end": 80,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 81,
+      "end": 81,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 82,
+      "end": 82,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 83,
+      "end": 83,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 84,
+      "end": 84,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 85,
+      "end": 85,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 86,
+      "end": 86,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 87,
+      "end": 87,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 88,
+      "end": 88,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 89,
+      "end": 89,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 90,
+      "end": 90,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 91,
+      "end": 91,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 92,
+      "end": 92,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 93,
+      "end": 93,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 94,
+      "end": 94,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 95,
+      "end": 95,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 96,
+      "end": 96,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 97,
+      "end": 97,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 98,
+      "end": 98,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 99,
+      "end": 99,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 100,
+      "end": 100,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 101,
+      "end": 101,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 102,
+      "end": 102,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 103,
+      "end": 103,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 104,
+      "end": 104,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 105,
+      "end": 105,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 106,
+      "end": 106,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 107,
+      "end": 107,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 108,
+      "end": 108,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 109,
+      "end": 109,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 110,
+      "end": 110,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 111,
+      "end": 111,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 112,
+      "end": 112,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 113,
+      "end": 113,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 114,
+      "end": 114,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 115,
+      "end": 115,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 116,
+      "end": 116,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 117,
+      "end": 117,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 118,
+      "end": 118,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 119,
+      "end": 119,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 120,
+      "end": 120,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 121,
+      "end": 121,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 122,
+      "end": 122,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 123,
+      "end": 123,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 124,
+      "end": 124,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 125,
+      "end": 125,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 126,
+      "end": 126,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 127,
+      "end": 127,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 128,
+      "end": 128,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 129,
+      "end": 129,
+      "author": "Сергей Штейнер",
+      "type": "text"
+    },
+    {
+      "start": 130,
+      "end": 130,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 131,
+      "end": 131,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 132,
+      "end": 132,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 133,
+      "end": 133,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 134,
+      "end": 134,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 135,
+      "end": 135,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 136,
+      "end": 136,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 137,
+      "end": 137,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 138,
+      "end": 138,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 139,
+      "end": 139,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 140,
+      "end": 140,
+      "author": "Человек За решёткой звёзд",
+      "type": "text"
+    },
+    {
+      "start": 141,
+      "end": 141,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 142,
+      "end": 142,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 143,
+      "end": 143,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 144,
+      "end": 144,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 145,
+      "end": 145,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 146,
+      "end": 146,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 147,
+      "end": 147,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 148,
+      "end": 148,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 149,
+      "end": 149,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 150,
+      "end": 150,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 151,
+      "end": 151,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 152,
+      "end": 152,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 153,
+      "end": 153,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 154,
+      "end": 154,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 155,
+      "end": 155,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 156,
+      "end": 156,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 157,
+      "end": 157,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 158,
+      "end": 158,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 159,
+      "end": 159,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 160,
+      "end": 160,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 161,
+      "end": 161,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 162,
+      "end": 162,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 163,
+      "end": 163,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 164,
+      "end": 164,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 165,
+      "end": 165,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 166,
+      "end": 166,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 167,
+      "end": 167,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 168,
+      "end": 168,
+      "author": "Человек За решёткой звёзд",
+      "type": "text"
+    },
+    {
+      "start": 169,
+      "end": 169,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 170,
+      "end": 170,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 171,
+      "end": 171,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 172,
+      "end": 172,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 173,
+      "end": 173,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 174,
+      "end": 174,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 175,
+      "end": 175,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 176,
+      "end": 176,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 177,
+      "end": 177,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 178,
+      "end": 178,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 179,
+      "end": 179,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 180,
+      "end": 180,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 181,
+      "end": 181,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 182,
+      "end": 182,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 183,
+      "end": 183,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 184,
+      "end": 184,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 185,
+      "end": 185,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 186,
+      "end": 186,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 187,
+      "end": 187,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 188,
+      "end": 188,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 189,
+      "end": 189,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 190,
+      "end": 190,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 191,
+      "end": 191,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 192,
+      "end": 192,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 193,
+      "end": 193,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 194,
+      "end": 194,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 195,
+      "end": 195,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 196,
+      "end": 196,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 197,
+      "end": 197,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 198,
+      "end": 198,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 199,
+      "end": 199,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 200,
+      "end": 200,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 201,
+      "end": 201,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 202,
+      "end": 202,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 203,
+      "end": 203,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 204,
+      "end": 204,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 205,
+      "end": 205,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 206,
+      "end": 211,
+      "author": "Александр Блок",
+      "type": "text"
+    },
+    {
+      "start": 212,
+      "end": 212,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 213,
+      "end": 213,
+      "author": null,
+      "type": "tech"
+    },
+    {
+      "start": 214,
+      "end": 214,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}

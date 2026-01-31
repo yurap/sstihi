@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+{% set body_class = "home" %}
+{% block content %}
+{% if hero_book %}
+  <section class="hero hero-cover" {% if hero_book.cover_large %}style="background-image: url('{{ hero_book.cover_large }}');"{% elif hero_book.cover %}style="background-image: url('{{ hero_book.cover }}');"{% endif %}>
+    {% if hero_snippet %}
+      <div class="hero-inner">
+        <a class="hero-snippet" href="/book/{{ hero_book.id }}#{{ hero_snippet.anchor }}">{{ hero_snippet.text | safe }}</a>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+<section class="grid grid-books">
+  {% if books %}
+    {% for b in books %}
+      <a class="card"
+         href="/book/{{ b.id }}"
+         {% if b.cover %}style="background-image: url('{{ b.cover }}');"{% endif %}
+         data-hero-title="{{ b.title if b.title else ('Книга ' ~ b.id) }}"
+         data-hero-link="/book/{{ b.id }}"
+         {% if b.cover %}data-hero-cover="{{ b.cover }}"{% endif %}>
+        <div class="card-title">{{ b.title if b.title else ("Книга " ~ b.id) }}</div>
+      </a>
+    {% endfor %}
+  {% else %}
+    <p>Нет данных в папке <code>data/</code>.</p>
+  {% endif %}
+</section>
+<script>
+  (function () {
+    var hero = document.querySelector(".hero-cover");
+    if (!hero) return;
+    var body = document.body;
+    var root = document.documentElement;
+    var heroHeight = hero.getBoundingClientRect().height;
+    var snippet = document.querySelector(".hero-snippet");
+    var snapping = true;
+    var updateSnap = function () {
+      var rect = hero.getBoundingClientRect();
+      var vh = window.innerHeight || document.documentElement.clientHeight;
+      if (rect.bottom <= 0 || rect.top >= vh) {
+        body.style.setProperty("--hero-clip-top", vh + "px");
+        body.style.setProperty("--hero-clip-bottom", "0px");
+      } else {
+        var clipTop = Math.max(rect.top, 0);
+        var clipBottom = Math.max(vh - rect.bottom, 0);
+        body.style.setProperty("--hero-clip-top", clipTop + "px");
+        body.style.setProperty("--hero-clip-bottom", clipBottom + "px");
+      }
+      if (!snapping && window.scrollY < heroHeight) {
+        body.classList.remove("snap-off");
+        root.classList.remove("snap-off");
+        snapping = true;
+      } else if (snapping && window.scrollY >= heroHeight) {
+        body.classList.add("snap-off");
+        root.classList.add("snap-off");
+        snapping = false;
+      }
+    };
+    window.addEventListener("resize", function () {
+      heroHeight = hero.getBoundingClientRect().height;
+      body.style.setProperty("--hero-bottom", heroHeight + "px");
+      if (snippet) {
+        body.style.setProperty("--hero-snippet-height", snippet.getBoundingClientRect().height + "px");
+      }
+      updateSnap();
+    }, { passive: true });
+    window.addEventListener("scroll", updateSnap, { passive: true });
+    if (snippet) {
+      body.style.setProperty("--hero-snippet-height", snippet.getBoundingClientRect().height + "px");
+    }
+    body.style.setProperty("--hero-bottom", heroHeight + "px");
+    updateSnap();
+
+    var rand = function (min, max) { return Math.random() * (max - min) + min; };
+    var startX = rand(5, 95);
+    var startY = rand(0, 100);
+    var zoom = rand(2, 18);
+    hero.style.setProperty("--hero-x", startX + "%");
+    hero.style.setProperty("--hero-y", startY + "%");
+    hero.style.setProperty("--hero-zoom", zoom + "%");
+    hero.style.backgroundPosition = startX + "% " + startY + "%";
+    hero.style.backgroundSize = "calc(100% + " + zoom + "%)";
+
+    // no auto-rotation
+  })();
+</script>
+{% endblock %}

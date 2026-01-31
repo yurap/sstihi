@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% set body_class = "" %}
+{% block content %}
+<div id="top"></div>
+<header class="site-header">
+  <div class="breadcrumb">
+    <a href="/">Домой</a> / <span>{{ book_meta.title if book_meta and book_meta.title else ("Книга " ~ book_id) }}</span>
+  </div>
+  <div class="header-controls">
+    {% if book_meta and book_meta.url %}
+      <a class="icon-link" href="{{ book_meta.url }}" target="_blank" rel="noopener" title="PDF">
+        <img src="/static/pdf.svg" alt="PDF" />
+      </a>
+    {% endif %}
+    <label class="switch icon-toggle" title="Images only">
+      <input id="toggle-images-only" type="checkbox" />
+      <img src="/static/image-text-mode.svg" alt="Images only" />
+    </label>
+  </div>
+</header>
+
+<section class="poems">
+  {% if items %}
+    {% for item in items %}
+      {% set item_id = "item-" ~ loop.index %}
+      <article class="poem" id="{{ item_id }}">
+        <div class="poem-body">
+          {% if item.images %}
+            <div class="poem-image">
+              {% for img in item.images %}
+                <img class="toggle-image" data-item-id="{{ item_id }}" src="/{{ img }}" alt="page image" />
+              {% endfor %}
+            </div>
+          {% endif %}
+          <div class="poem-content">
+            {% if item.text %}
+              <div class="poem-text">{{ item.text | safe }}</div>
+              {% if item.author %}
+                <div class="poem-author">{{ item.author }}</div>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  {% else %}
+    <p>Нет данных для книги {{ book_id }}.</p>
+  {% endif %}
+</section>
+<div class="back-top">
+  <a href="#top" id="back-to-top">Наверх</a>
+</div>
+<script>
+  (function () {
+    var toggle = document.getElementById("toggle-images-only");
+    if (!toggle) return;
+    var stored = localStorage.getItem("imagesOnly");
+    if (stored === null || stored === "1") {
+      document.body.classList.add("images-only");
+      toggle.checked = true;
+    }
+    var applyState = function () {
+      if (toggle.checked) {
+        document.body.classList.add("images-only");
+        localStorage.setItem("imagesOnly", "1");
+      } else {
+        document.body.classList.remove("images-only");
+        localStorage.setItem("imagesOnly", "0");
+      }
+    };
+    toggle.addEventListener("change", applyState);
+    document.addEventListener("click", function (e) {
+      var target = e.target;
+      if (target && target.classList && target.classList.contains("toggle-image")) {
+        var id = target.getAttribute("data-item-id");
+        toggle.checked = !toggle.checked;
+        applyState();
+        if (id) {
+          target.scrollIntoView({ block: "center" });
+        }
+      }
+    });
+  })();
+</script>
+{% endblock %}
