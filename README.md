@@ -68,7 +68,7 @@ For each book:
 ```json
 {
   "pages": [
-    {"page": 1, "text": "...", "image": "data/images/1/page_1.png"},
+    {"page": 1, "text": "...", "image": "data/images/1/page_1.png", "note": "editorial note"},
     {"page": 2, "text": "...", "image": "data/images/1/page_2.png"}
   ],
   "elements": [
@@ -78,7 +78,7 @@ For each book:
 }
 ```
 
-- `pages` is a list of page records with text and image path.
+- `pages` is a list of page records with text and image path; optional `note` is shown as a distinct note in text mode.
 - `elements` is a list of merged ranges (start/end inclusive) with a `type` and optional `author`.
 - Each page should belong to some element (you can manually edit the ranges to fix grouping).
 
