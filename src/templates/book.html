@@ -10,6 +10,9 @@
     <a class="icon-link" href="#top" title="Наверх">
       <img src="/static/arrow-up.svg" alt="Наверх" />
     </a>
+    <a class="icon-link" href="#" id="scroll-bottom" title="Вниз">
+      <img src="/static/arrow-up.svg" alt="Вниз" class="icon-down" />
+    </a>
     {% if book_meta and book_meta.url %}
       <a class="icon-link" href="{{ book_meta.url }}" target="_blank" rel="noopener" title="PDF">
         <img src="/static/pdf.svg" alt="PDF" />
@@ -54,9 +57,7 @@
     <p>Нет данных для книги {{ book_id }}.</p>
   {% endif %}
 </section>
-<div class="back-top">
-  <a href="#top" id="back-to-top">Наверх</a>
-</div>
+<div class="back-top" id="bottom"></div>
 <script>
   (function () {
     var toggle = document.getElementById("toggle-images-only");
@@ -100,6 +101,14 @@
     window.addEventListener("hashchange", centerHash);
     window.addEventListener("load", function () {
       setTimeout(centerHash, 0);
+    });
+  })();
+  (function () {
+    var btn = document.getElementById("scroll-bottom");
+    if (!btn) return;
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo(0, document.body.scrollHeight);
     });
   })();
 </script>

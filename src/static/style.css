@@ -124,6 +124,10 @@ html.home.snap-off {
   display: block;
 }
 
+.icon-down {
+  transform: rotate(180deg);
+}
+
 .icon-toggle,
 .switch.icon-toggle {
   cursor: pointer;
