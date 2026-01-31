@@ -26,6 +26,14 @@ html.home {
   scroll-snap-stop: always;
   scroll-behavior: smooth;
   scroll-padding-top: 1.5rem;
+  overflow-x: clip;
+}
+
+@supports not (overflow: clip) {
+  .home,
+  html.home {
+    overflow-x: hidden;
+  }
 }
 
 .home.snap-off,
@@ -266,15 +274,23 @@ html.home.snap-off {
   margin: 1.5rem 0 0;
   height: 120px;
   border-radius: 0;
-  width: 100svw;
-  margin-left: calc(50% - 50svw);
-  margin-right: calc(50% - 50svw);
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
   background-size: cover;
   background-position: center bottom;
   position: relative;
   overflow: hidden;
   scroll-snap-align: end;
   scroll-snap-stop: always;
+}
+
+@supports (width: 100svw) {
+  .home-footer {
+    width: 100svw;
+    margin-left: calc(50% - 50svw);
+    margin-right: calc(50% - 50svw);
+  }
 }
 
 .home-footer::after {
