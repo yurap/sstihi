@@ -42,6 +42,9 @@
                 <div class="poem-author">{{ item.author }}</div>
               {% endif %}
             {% endif %}
+            {% if item.note %}
+              <div class="poem-note">{{ item.note }}</div>
+            {% endif %}
           </div>
         </div>
       </article>

@@ -224,16 +224,20 @@ def merge_by_ranges(pages: List[dict], elements: List[dict]) -> List[dict]:
         used_pages.update(pages)
         text_parts = []
         images = []
+        notes = []
         for p in pages:
             for it in items_by_page.get(p, []):
                 if it.get("text"):
                     text_parts.append(it["text"])
                 if it.get("image"):
                     images.append(it["image"])
+                if it.get("note"):
+                    notes.append(it["note"])
         merged.append(
             {
                 "pages": pages,
                 "text": wrap_emoji("\n".join(text_parts).strip()) if text_parts else None,
+                "note": "\n".join(notes).strip() if notes else None,
                 "author": el.get("author"),
                 "type": el.get("type"),
                 "images": images or None,
@@ -251,6 +255,7 @@ def merge_by_ranges(pages: List[dict], elements: List[dict]) -> List[dict]:
             {
                 "pages": [page],
                 "text": wrap_emoji(it.get("text")),
+                "note": it.get("note"),
                 "author": None,
                 "type": "page",
                 "images": [it["image"]] if it.get("image") else None,
