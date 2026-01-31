@@ -91,7 +91,7 @@ def pick_hero_snippet(book_id: int) -> Optional[dict]:
     for idx, it in candidates:
         snippet = _extract_snippet(it.get("text") or "")
         if snippet:
-            snippets.append({"text": snippet, "anchor": f"item-{idx}"})
+            snippets.append({"text": snippet, "anchor": str(idx)})
     if not snippets:
         return None
     return random.choice(snippets)

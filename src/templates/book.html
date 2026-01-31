@@ -25,7 +25,7 @@
 <section class="poems">
   {% if items %}
     {% for item in items %}
-      {% set item_id = "item-" ~ loop.index %}
+      {% set item_id = loop.index %}
       <article class="poem" id="{{ item_id }}">
         <div class="poem-body">
           {% if item.images %}
