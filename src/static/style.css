@@ -51,10 +51,22 @@ html.home.snap-off {
 }
 
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: rgba(250, 250, 250, 0.8);
+  padding: 0.75rem 0;
+  margin: 0 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0 1rem;
+}
+
+@supports (backdrop-filter: blur(6px)) {
+  .site-header {
+    background: rgba(250, 250, 250, 0.8);
+    backdrop-filter: blur(10px);
+  }
 }
 
 .breadcrumb {
@@ -82,24 +94,40 @@ html.home.snap-off {
 }
 
 .icon-link,
-.icon-toggle {
+.icon-toggle,
+.switch.icon-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 28px;
   height: 28px;
   vertical-align: middle;
+  border: 1px solid var(--poem-border);
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.35);
+  box-sizing: border-box;
+}
+
+@supports (backdrop-filter: blur(6px)) {
+  .icon-link,
+  .icon-toggle {
+    background: rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(6px);
+  }
 }
 
 .icon-link img,
 .icon-toggle img {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   display: block;
 }
 
-.icon-toggle {
+.icon-toggle,
+.switch.icon-toggle {
   cursor: pointer;
+  gap: 0;
+  padding: 0;
 }
 
 .icon-toggle input {

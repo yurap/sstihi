@@ -7,6 +7,9 @@
     <a href="/">Домой</a> / <span>{{ book_meta.title if book_meta and book_meta.title else ("Книга " ~ book_id) }}</span>
   </div>
   <div class="header-controls">
+    <a class="icon-link" href="#top" title="Наверх">
+      <img src="/static/arrow-up.svg" alt="Наверх" />
+    </a>
     {% if book_meta and book_meta.url %}
       <a class="icon-link" href="{{ book_meta.url }}" target="_blank" rel="noopener" title="PDF">
         <img src="/static/pdf.svg" alt="PDF" />
