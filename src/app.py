@@ -260,7 +260,7 @@ def merge_by_ranges(pages: List[dict], elements: List[dict]) -> List[dict]:
 
 
 def load_index() -> Dict[str, List[dict]]:
-    path = BASE_DIR / "index.json"
+    path = DATA_DIR / "index.json"
     if not path.exists():
         return {"books": []}
     try:

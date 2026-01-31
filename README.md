@@ -82,7 +82,7 @@ For each book:
 - `elements` is a list of merged ranges (start/end inclusive) with a `type` and optional `author`.
 - Each page should belong to some element (you can manually edit the ranges to fix grouping).
 
-### `index.json`
+### `data/index.json`
 
 ```json
 {
@@ -102,5 +102,5 @@ For each book:
 
 Open: http://127.0.0.1:8000
 
-- Homepage uses `index.json` + `title_small.png` for tiles and `title.png` for the hero.
+- Homepage uses `data/index.json` + `title_small.png` for tiles and `title.png` for the hero.
 - Book page uses `data/{book}.json` and renders images + merged text ranges.
