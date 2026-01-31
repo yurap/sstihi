@@ -27,6 +27,7 @@
     {% for item in items %}
       {% set item_id = loop.index %}
       <article class="poem" id="{{ item_id }}">
+        <a class="poem-anchor" href="#{{ item_id }}">#</a>
         <div class="poem-body">
           {% if item.images %}
             <div class="poem-image">
@@ -85,6 +86,20 @@
           target.scrollIntoView({ block: "center" });
         }
       }
+    });
+  })();
+  (function () {
+    var centerHash = function () {
+      var hash = window.location.hash;
+      if (!hash || hash === "#top") return;
+      var el = document.getElementById(hash.slice(1));
+      if (el) {
+        el.scrollIntoView({ block: "center" });
+      }
+    };
+    window.addEventListener("hashchange", centerHash);
+    window.addEventListener("load", function () {
+      setTimeout(centerHash, 0);
     });
   })();
 </script>

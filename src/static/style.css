@@ -4,6 +4,7 @@
   --poem-border: #e7e7e7;
   --muted: #777;
   --title-font: "Lobster", "Palatino Linotype", "Book Antiqua", "Palatino", "Garamond", "Georgia", serif;
+  --hover-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
 }
 
 body {
@@ -295,7 +296,7 @@ html.home.snap-off {
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  box-shadow: var(--hover-shadow);
 }
 
 .card:hover::after {
@@ -318,17 +319,52 @@ html.home.snap-off {
 }
 
 .poem {
+  position: relative;
   border: 1px solid var(--poem-border);
   padding: 1.25rem;
   border-radius: 8px;
   background: #fff;
 }
 
+
 .poem-body {
   display: grid;
   grid-template-columns: minmax(120px, 280px) 1fr;
   gap: 1rem;
   align-items: start;
+}
+
+.poem-anchor {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: 26px;
+  height: 26px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--muted);
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+@supports (backdrop-filter: blur(6px)) {
+  .poem-anchor {
+    background: rgba(255, 255, 255, 0.45);
+    backdrop-filter: blur(6px);
+  }
+}
+
+.poem-anchor:hover {
+  color: #111;
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.images-only .poem-anchor {
+  display: none;
 }
 
 .poem-image img {
