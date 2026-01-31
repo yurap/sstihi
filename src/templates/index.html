@@ -26,6 +26,18 @@
     <p>Нет данных в папке <code>data/</code>.</p>
   {% endif %}
 </section>
+{% if hero_book %}
+  <footer class="home-footer" {% if hero_book.cover_large %}style="background-image: url('{{ hero_book.cover_large }}');"{% elif hero_book.cover %}style="background-image: url('{{ hero_book.cover }}');"{% endif %}>
+    <div class="footer-icons">
+      <a class="footer-icon" target="_blank" href="https://www.instagram.com/prisnilsya.sonet" aria-label="Instagram">
+        <img src="/static/instagram-logo.svg" alt="Instagram" />
+      </a>
+      <a class="footer-icon" target="_blank" href="https://linktr.ee/sergei.shteiner" aria-label="Linktree">
+        <img src="/static/linktree-logo.svg" alt="Linktree" />
+      </a>
+    </div>
+  </footer>
+{% endif %}
 <script>
   (function () {
     var hero = document.querySelector(".hero-cover");

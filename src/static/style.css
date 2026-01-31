@@ -13,7 +13,7 @@ body {
 }
 
 .home .container {
-  padding: 0 0 1rem 0;
+  padding: 0;
 }
 
 .home .grid-books {
@@ -261,6 +261,84 @@ html.home.snap-off {
   padding-top: 1.5rem;
   background: #fafafa;
 }
+
+.home-footer {
+  margin: 1.5rem 0 0;
+  height: 120px;
+  border-radius: 0;
+  width: 60vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-size: cover;
+  background-position: center bottom;
+  position: relative;
+  overflow: hidden;
+  scroll-snap-align: end;
+  scroll-snap-stop: always;
+}
+
+@supports (width: 100svw) {
+  .home-footer {
+    width: 100svw;
+    margin-left: calc(50% - 50svw);
+    margin-right: calc(50% - 50svw);
+  }
+}
+
+.home-footer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.9)),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0));
+  backdrop-filter: blur(12px);
+}
+
+.home-footer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.footer-icons {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 0;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  background: transparent;
+  text-decoration: none;
+}
+
+.footer-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+}
+
+.footer-icon img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+
 
 .grid {
   display: grid;
