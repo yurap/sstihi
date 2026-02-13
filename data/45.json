@@ -1,0 +1,265 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/45/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": null,
+      "image": "data/images/45/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "А\n",
+      "image": "data/images/45/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "Б\n",
+      "image": "data/images/45/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "В\n",
+      "image": "data/images/45/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "Г\n",
+      "image": "data/images/45/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "Д\n",
+      "image": "data/images/45/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "Е\n",
+      "image": "data/images/45/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "Ё\n",
+      "image": "data/images/45/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "Ж\n",
+      "image": "data/images/45/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "З\n",
+      "image": "data/images/45/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "И\n",
+      "image": "data/images/45/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "Й\n",
+      "image": "data/images/45/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "К\n",
+      "image": "data/images/45/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "Л\n",
+      "image": "data/images/45/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "М\n",
+      "image": "data/images/45/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "Н\n",
+      "image": "data/images/45/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "О\n",
+      "image": "data/images/45/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "П\n",
+      "image": "data/images/45/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "Р\n",
+      "image": "data/images/45/page_20.png"
+    },
+    {
+      "page": 21,
+      "text": "С\n",
+      "image": "data/images/45/page_21.png"
+    },
+    {
+      "page": 22,
+      "text": "Т\n",
+      "image": "data/images/45/page_22.png"
+    },
+    {
+      "page": 23,
+      "text": "У\n",
+      "image": "data/images/45/page_23.png"
+    },
+    {
+      "page": 24,
+      "text": "Ф\n",
+      "image": "data/images/45/page_24.png"
+    },
+    {
+      "page": 25,
+      "text": "Х\n",
+      "image": "data/images/45/page_25.png"
+    },
+    {
+      "page": 26,
+      "text": "Ц\n",
+      "image": "data/images/45/page_26.png"
+    },
+    {
+      "page": 27,
+      "text": "Ч\n",
+      "image": "data/images/45/page_27.png"
+    },
+    {
+      "page": 28,
+      "text": "Ш\n",
+      "image": "data/images/45/page_28.png"
+    },
+    {
+      "page": 29,
+      "text": "Щ\n",
+      "image": "data/images/45/page_29.png"
+    },
+    {
+      "page": 30,
+      "text": "Ъ\n",
+      "image": "data/images/45/page_30.png"
+    },
+    {
+      "page": 31,
+      "text": "Ы\n",
+      "image": "data/images/45/page_31.png"
+    },
+    {
+      "page": 32,
+      "text": "Ь\n",
+      "image": "data/images/45/page_32.png"
+    },
+    {
+      "page": 33,
+      "text": "Э\n",
+      "image": "data/images/45/page_33.png"
+    },
+    {
+      "page": 34,
+      "text": "Ю\n",
+      "image": "data/images/45/page_34.png"
+    },
+    {
+      "page": 35,
+      "text": "Я\n",
+      "image": "data/images/45/page_35.png"
+    },
+    {
+      "page": 36,
+      "text": "Содержание\nА\n1\nБ\n2\nВ\n3\nГ\n4\nД\n5\nЕ\n6\nЁ\n7\nЖ\n8\nЗ\n9\nИ\n11\nЙ\n22\nК\n33\nЛ\n44\nМ\n55\nН\n66\nО\n77\nП\n88\nР\n",
+      "image": "data/images/45/page_36.png"
+    },
+    {
+      "page": 37,
+      "text": "С\n101\nТ\n111\nУ\n121\nФ\n131\nХ\n141\nЦ\n151\nЧ\n161\nШ\n171\nЩ\n181\nЪ\n191\nЫ\n202\nЬ\n212\nЭ\n222\nЮ\n232\nЯ\n",
+      "image": "data/images/45/page_37.png"
+    },
+    {
+      "page": 38,
+      "text": null,
+      "image": "data/images/45/page_38.png"
+    },
+    {
+      "page": 39,
+      "text": null,
+      "image": "data/images/45/page_39.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "text"
+    },
+    {"start": 4,"end": 4,"author": null,"type": "text"},
+    {"start": 5,"end": 5,"author": null,"type": "text"},
+    {"start": 6,"end": 6,"author": null,"type": "text"},
+    {"start": 7,"end": 7,"author": null,"type": "text"},
+    {"start": 8,"end": 8,"author": null,"type": "text"},
+    {"start": 9,"end": 9,"author": null,"type": "text"},
+    {"start": 10,"end": 10,"author": null,"type": "text"},
+    {"start": 11,"end": 11,"author": null,"type": "text"},
+    {"start": 12,"end": 12,"author": null,"type": "text"},
+    {"start": 13,"end": 13,"author": null,"type": "text"},
+    {"start": 14,"end": 14,"author": null,"type": "text"},
+    {"start": 15,"end": 15,"author": null,"type": "text"},
+    {"start": 16,"end": 16,"author": null,"type": "text"},
+    {"start": 17,"end": 17,"author": null,"type": "text"},
+    {"start": 18,"end": 18,"author": null,"type": "text"},
+    {"start": 19,"end": 19,"author": null,"type": "text"},
+    {"start": 20,"end": 20,"author": null,"type": "text"},
+    {"start": 21,"end": 21,"author": null,"type": "text"},
+    {"start": 22,"end": 22,"author": null,"type": "text"},
+    {"start": 23,"end": 23,"author": null,"type": "text"},
+    {"start": 24,"end": 24,"author": null,"type": "text"},
+    {"start": 25,"end": 25,"author": null,"type": "text"},
+    {"start": 26,"end": 26,"author": null,"type": "text"},
+    {"start": 27,"end": 27,"author": null,"type": "text"},
+    {"start": 28,"end": 28,"author": null,"type": "text"},
+    {"start": 29,"end": 29,"author": null,"type": "text"},
+    {"start": 30,"end": 30,"author": null,"type": "text"},
+    {"start": 31,"end": 31,"author": null,"type": "text"},
+    {"start": 32,"end": 32,"author": null,"type": "text"},
+    {"start": 33,"end": 33,"author": null,"type": "text"},
+    {"start": 34,"end": 34,"author": null,"type": "text"},
+    {"start": 35,"end": 35,"author": null,"type": "text"},
+    {"start": 36,"end": 36,"author": null,"type": "text"},
+    {"start": 37,"end": 37,"author": null,"type": "text"},
+    {
+      "start": 38,
+      "end": 38,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 39,
+      "end": 39,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}
