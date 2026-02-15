@@ -1,0 +1,138 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/46/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": null,
+      "image": "data/images/46/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": null,
+      "image": "data/images/46/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": null,
+      "image": "data/images/46/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": null,
+      "image": "data/images/46/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": null,
+      "image": "data/images/46/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": null,
+      "image": "data/images/46/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": null,
+      "image": "data/images/46/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": null,
+      "image": "data/images/46/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": null,
+      "image": "data/images/46/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": null,
+      "image": "data/images/46/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": null,
+      "image": "data/images/46/page_12.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}
