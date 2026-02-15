@@ -12,7 +12,7 @@
 {% endif %}
 <section class="grid grid-books">
   {% if books %}
-    {% for b in books %}
+    {% for b in books | reverse %}
       <a class="card"
          href="/book/{{ b.id }}"
          {% if b.cover %}style="background-image: url('{{ b.cover }}');"{% endif %}
