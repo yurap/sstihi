@@ -59,6 +59,11 @@
       "page": 12,
       "text": null,
       "image": "data/images/46/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": null,
+      "image": "data/images/46/page_13.png"
     }
   ],
   "elements": [
@@ -131,6 +136,12 @@
     {
       "start": 12,
       "end": 12,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 13,
+      "end": 13,
       "author": null,
       "type": "image"
     }
