@@ -1,0 +1,270 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/48/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": null,
+      "image": "data/images/48/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "Осенние строчки\n",
+      "image": "data/images/48/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "Хайку\n",
+      "image": "data/images/48/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "Хокку\n",
+      "image": "data/images/48/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "Хокку+\n",
+      "image": "data/images/48/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "Палиндром\n",
+      "image": "data/images/48/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "Found poetry\n",
+      "image": "data/images/48/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "Перевод на английский\n",
+      "image": "data/images/48/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "Перевод на немецкий\n",
+      "image": "data/images/48/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "Плагиат\n",
+      "image": "data/images/48/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "Центон\n",
+      "image": "data/images/48/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "Концептуализм\n",
+      "image": "data/images/48/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "Мицелий\n",
+      "image": "data/images/48/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "Гимений\n",
+      "image": "data/images/48/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "Спорангий\n",
+      "image": "data/images/48/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "Болдинская осень\n",
+      "image": "data/images/48/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "Элегия («Безумных лет угасшее веселье...»)\n",
+      "image": "data/images/48/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "«Люблю их ножки только в ряд...»\n",
+      "image": "data/images/48/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "«В Горках знал его любой...»\n",
+      "image": "data/images/48/page_20.png"
+    },
+    {
+      "page": 21,
+      "text": "Исчерпывающая картина Фёдора Двинятина\n",
+      "image": "data/images/48/page_21.png"
+    },
+    {
+      "page": 22,
+      "text": "ПОКА ФСЁ\n(шрифт Autumn Sweater)\n",
+      "image": "data/images/48/page_22.png"
+    },
+    {
+      "page": 23,
+      "text": null,
+      "image": "data/images/48/page_23.png"
+    },
+    {
+      "page": 24,
+      "text": null,
+      "image": "data/images/48/page_24.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 21,
+      "end": 21,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 22,
+      "end": 22,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 23,
+      "end": 23,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 24,
+      "end": 24,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}
