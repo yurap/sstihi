@@ -67,52 +67,52 @@
     },
     {
       "page": 14,
-      "text": "Мицелий\n",
+      "text": "Постконцептуализм\n",
       "image": "data/images/48/page_14.png"
     },
     {
       "page": 15,
-      "text": "Гимений\n",
+      "text": "Мицелий\n",
       "image": "data/images/48/page_15.png"
     },
     {
       "page": 16,
-      "text": "Спорангий\n",
+      "text": "Гимений\n",
       "image": "data/images/48/page_16.png"
     },
     {
       "page": 17,
-      "text": "Болдинская осень\n",
+      "text": "Спорангий\n",
       "image": "data/images/48/page_17.png"
     },
     {
       "page": 18,
-      "text": "Элегия («Безумных лет угасшее веселье...»)\n",
+      "text": "Болдинская осень\n",
       "image": "data/images/48/page_18.png"
     },
     {
       "page": 19,
-      "text": "«Люблю их ножки только в ряд...»\n",
+      "text": "Элегия («Безумных лет угасшее веселье...»)\n",
       "image": "data/images/48/page_19.png"
     },
     {
       "page": 20,
-      "text": "«В Горках знал его любой...»\n",
+      "text": "«Люблю их ножки только в ряд...»\n",
       "image": "data/images/48/page_20.png"
     },
     {
       "page": 21,
-      "text": "Исчерпывающая картина Фёдора Двинятина\n",
+      "text": "«В Горках знал его любой...»\n",
       "image": "data/images/48/page_21.png"
     },
     {
       "page": 22,
-      "text": "ПОКА ФСЁ\n(шрифт Autumn Sweater)\n",
+      "text": "Исчерпывающая картина Фёдора Двинятина\n",
       "image": "data/images/48/page_22.png"
     },
     {
       "page": 23,
-      "text": null,
+      "text": "ПОКА ФСЁ\n(шрифт Autumn Sweater)\n",
       "image": "data/images/48/page_23.png"
     },
     {
@@ -258,7 +258,7 @@
       "start": 23,
       "end": 23,
       "author": null,
-      "type": "image"
+      "type": "title"
     },
     {
       "start": 24,
