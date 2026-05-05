@@ -20,6 +20,13 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--quality", type=int, default=80, help="WebP quality, 0-100")
     parser.add_argument("--force", action="store_true", help="Recreate existing WebP files")
     parser.add_argument(
+        "--only",
+        action="append",
+        default=[],
+        metavar="PNG_PATH",
+        help="Convert only this PNG path. Can be passed multiple times.",
+    )
+    parser.add_argument(
         "--delete-originals",
         action="store_true",
         help="Delete PNG files after successful conversion and JSON rewrite",
@@ -27,6 +34,25 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--dry-run", action="store_true", help="Print planned changes only")
     parser.add_argument("--verbose", action="store_true", help="Print every converted/deleted file")
     return parser.parse_args()
+
+
+def resolve_png_paths(paths: list[str]) -> list[Path]:
+    resolved = []
+    for raw_path in paths:
+        path = Path(raw_path)
+        if not path.is_absolute():
+            path = ROOT / path
+        path = path.resolve()
+        try:
+            path.relative_to(IMAGES_DIR.resolve())
+        except ValueError:
+            raise ValueError(f"{raw_path} is outside data/images")
+        if path.suffix.lower() != ".png":
+            raise ValueError(f"{raw_path} is not a PNG path")
+        if not path.exists():
+            raise ValueError(f"{raw_path} does not exist")
+        resolved.append(path)
+    return sorted(set(resolved))
 
 
 def convert_png(
@@ -113,6 +139,20 @@ def delete_originals(dry_run: bool, verbose: bool) -> int:
     return deleted
 
 
+def delete_selected_originals(png_paths: list[Path], dry_run: bool, verbose: bool) -> int:
+    deleted = 0
+    for png_path in png_paths:
+        if not png_path.with_suffix(".webp").exists():
+            continue
+        deleted += 1
+        if dry_run:
+            if verbose:
+                print(f"delete {png_path.relative_to(ROOT)}")
+        else:
+            png_path.unlink()
+    return deleted
+
+
 def main() -> int:
     args = parse_args()
     if not 0 <= args.quality <= 100:
@@ -126,7 +166,11 @@ def main() -> int:
         print(f"{IMAGES_DIR.relative_to(ROOT)} does not exist", file=sys.stderr)
         return 2
 
-    png_paths = sorted(IMAGES_DIR.glob("**/*.png"))
+    try:
+        png_paths = resolve_png_paths(args.only) if args.only else sorted(IMAGES_DIR.glob("**/*.png"))
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
+        return 2
     available_webps = set(IMAGES_DIR.glob("**/*.webp"))
     converted = 0
     for png_path in png_paths:
@@ -140,7 +184,12 @@ def main() -> int:
             return 1
 
     rewritten = rewrite_json_files(available_webps, args.dry_run)
-    deleted = delete_originals(args.dry_run, args.verbose) if args.delete_originals else 0
+    if args.delete_originals and args.only:
+        deleted = delete_selected_originals(png_paths, args.dry_run, args.verbose)
+    elif args.delete_originals:
+        deleted = delete_originals(args.dry_run, args.verbose)
+    else:
+        deleted = 0
     print(
         f"converted={converted} json_paths_rewritten={rewritten} "
         f"deleted_pngs={deleted} total_pngs={len(png_paths)}"
