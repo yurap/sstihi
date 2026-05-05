@@ -1,4 +1,13 @@
 **/.DS_Store
-**/.venv
-fly.toml
-downloads/*
+**/__pycache__/
+**/*.py[cod]
+
+.git/
+.venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+downloads/
+tests/
+requirements-dev.txt

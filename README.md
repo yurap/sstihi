@@ -14,6 +14,10 @@ python3 -m venv .venv
 ./.venv/bin/pip install -r requirements.txt
 ```
 
+The deployed web app only needs FastAPI, Uvicorn, and Jinja. PDF processing
+dependencies such as PyMuPDF are intentionally kept in `requirements-dev.txt`
+so they are not installed into the production image.
+
 ## Process PDFs
 
 Install local-only deps:
