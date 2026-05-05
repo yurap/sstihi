@@ -1,0 +1,368 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/51/page_1.png"
+    },
+    {
+      "page": 2,
+      "text": "Пинг-понг / отдыхает\n(первая апрельская рэнга)\nИдея названия Сергия\n",
+      "image": "data/images/51/page_2.png"
+    },
+    {
+      "page": 3,
+      "text": "Предуведомление\nЭта первая в истории танкеточная рэнга написана в апреле 2026. Фор-\nмат, предложенный мной, предельно прост. Каждая реплика состоит из\nодной танкетки, причём авторы чередуются.\nВпрочем, настоящим поэтам правила не писаны. Но ведь и в жиз-\nни не бывает правил без исключений (за редким исключением правил\nбез исключений). В общем и целом, по-моему, получилось, как говорил\nОстап Бендер.\nПриятного чтения!\nМай 2026\n",
+      "image": "data/images/51/page_3.png"
+    },
+    {
+      "page": 4,
+      "text": "1\nпервое\nапреля\n",
+      "image": "data/images/51/page_4.png"
+    },
+    {
+      "page": 5,
+      "text": "2\nсерьезно\nне смешно\nСергий\n",
+      "image": "data/images/51/page_5.png"
+    },
+    {
+      "page": 6,
+      "text": "3\nостров\nгде я один\nСергий\n",
+      "image": "data/images/51/page_6.png"
+    },
+    {
+      "page": 7,
+      "text": "4\nодин\nно не первый\n",
+      "image": "data/images/51/page_7.png"
+    },
+    {
+      "page": 8,
+      "text": "5\nидея\nне прошла\n",
+      "image": "data/images/51/page_8.png"
+    },
+    {
+      "page": 9,
+      "text": "6\nсмех думать\nмешает\nСергий\n",
+      "image": "data/images/51/page_9.png"
+    },
+    {
+      "page": 10,
+      "text": "7\nвзгрустнул\nзадумался\n",
+      "image": "data/images/51/page_10.png"
+    },
+    {
+      "page": 11,
+      "text": "8\nподумай\nсвысока\n",
+      "image": "data/images/51/page_11.png"
+    },
+    {
+      "page": 12,
+      "text": "9\nдождь снизу\nвопли луж\nСергий\n",
+      "image": "data/images/51/page_12.png"
+    },
+    {
+      "page": 13,
+      "text": "10\nчепуха\nна масле\n",
+      "image": "data/images/51/page_13.png"
+    },
+    {
+      "page": 14,
+      "text": "11\nпресса\nжарит факты\nСергий\n",
+      "image": "data/images/51/page_14.png"
+    },
+    {
+      "page": 15,
+      "text": "12\nфакты\nбезвкусные\n",
+      "image": "data/images/51/page_15.png"
+    },
+    {
+      "page": 16,
+      "text": "13\nна вкус\nтабу за цвет\nСергий\n",
+      "image": "data/images/51/page_16.png"
+    },
+    {
+      "page": 17,
+      "text": "14\nвесна\nцветочная\n",
+      "image": "data/images/51/page_17.png"
+    },
+    {
+      "page": 18,
+      "text": "15\nзима\nв корнях цветов\n",
+      "image": "data/images/51/page_18.png"
+    },
+    {
+      "page": 19,
+      "text": "16\nсакура\nзнает срок\nСергий\n",
+      "image": "data/images/51/page_19.png"
+    },
+    {
+      "page": 20,
+      "text": "17\nпрошел дождь\nвесенний\n",
+      "image": "data/images/51/page_20.png"
+    },
+    {
+      "page": 21,
+      "text": "18\nпредвестник\nлетних гроз\nСергий\n",
+      "image": "data/images/51/page_21.png"
+    },
+    {
+      "page": 22,
+      "text": "19\nпредбанник\nосени\n",
+      "image": "data/images/51/page_22.png"
+    },
+    {
+      "page": 23,
+      "text": "20\nподделка\nхолодов\nСергий\n",
+      "image": "data/images/51/page_23.png"
+    },
+    {
+      "page": 24,
+      "text": "21\nзима\nи поделом\n",
+      "image": "data/images/51/page_24.png"
+    },
+    {
+      "page": 25,
+      "text": "22\nвесь апрель\nпод снегом\n",
+      "image": "data/images/51/page_25.png"
+    },
+    {
+      "page": 26,
+      "text": "23\nнаследил\nпо снегу\n",
+      "image": "data/images/51/page_26.png"
+    },
+    {
+      "page": 27,
+      "text": "24\nя знал\nвесна будет\nСергий\n",
+      "image": "data/images/51/page_27.png"
+    },
+    {
+      "page": 28,
+      "text": "25\nпокрасил\nкрасоту\n",
+      "image": "data/images/51/page_28.png"
+    },
+    {
+      "page": 29,
+      "text": "26\nв страстях\nпокоя нет\nСергий\n",
+      "image": "data/images/51/page_29.png"
+    },
+    {
+      "page": 30,
+      "text": "27\nвопрос\nможет возраст\nчисти мозг\nи сердце\nеще\nсмени даму\nили\nуже умри\n",
+      "image": "data/images/51/page_30.png"
+    },
+    {
+      "page": 31,
+      "text": "28\nстрасти\nстрадательны\n",
+      "image": "data/images/51/page_31.png"
+    },
+    {
+      "page": 32,
+      "text": "29\nподвиг\nжить средь страстей\nСергий\n",
+      "image": "data/images/51/page_32.png"
+    },
+    {
+      "page": 33,
+      "text": null,
+      "image": "data/images/51/page_33.png"
+    },
+    {
+      "page": 34,
+      "text": null,
+      "image": "data/images/51/page_34.png"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": "Сергей Штейнер",
+      "type": "text"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 5,
+      "end": 6,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 21,
+      "end": 21,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 22,
+      "end": 22,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 23,
+      "end": 23,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 24,
+      "end": 24,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 25,
+      "end": 25,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 26,
+      "end": 26,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 27,
+      "end": 27,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 28,
+      "end": 28,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 29,
+      "end": 30,
+      "author": "Алина Дием",
+      "type": "text"
+    },
+    {
+      "start": 31,
+      "end": 31,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 32,
+      "end": 32,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 33,
+      "end": 33,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 34,
+      "end": 34,
+      "author": null,
+      "type": "image"
+    }
+  ]
+}
