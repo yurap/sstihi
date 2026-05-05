@@ -297,6 +297,7 @@ def index(request: Request):
     hero_book = random.choice(hero_candidates) if hero_candidates else (books[0] if books else None)
     hero_snippet = pick_hero_snippet(hero_book["id"]) if hero_book and hero_book.get("id") else None
     return templates.TemplateResponse(
+        request,
         "index.html",
         {
             "request": request,
@@ -312,6 +313,7 @@ def book_view(book_id: int, request: Request):
     items = merge_by_ranges(load_pages(book_id), load_elements(book_id))
     book_meta = next((b for b in list_books() if b.get("id") == book_id), None)
     return templates.TemplateResponse(
+        request,
         "book.html",
         {
             "request": request,
