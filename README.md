@@ -54,6 +54,8 @@ Options:
 - `--scale` — scale for page images (default `2.0`)
 - `--title-scale` — scale for title image (default `4.0`)
 - `--title-small-scale` — scale for tile background (default `1.5`)
+- `--image-format` — `auto`, `webp`, or `png` (default `auto`; writes WebP when `cwebp` is installed)
+- `--webp-quality` — WebP quality (default `80`)
 - `--no-images` — skip rendering images
 
 ### Output files
@@ -61,9 +63,20 @@ Options:
 For each book:
 
 - `data/{book}.json`
-- `data/images/{book}/page_{n}.png`
-- `data/images/{book}/title.png`
-- `data/images/{book}/title_small.png`
+- `data/images/{book}/page_{n}.webp` (or `.png` without `cwebp`)
+- `data/images/{book}/title.webp` (or `.png` without `cwebp`)
+- `data/images/{book}/title_small.webp` (or `.png` without `cwebp`)
+
+## Convert Existing Images To WebP
+
+Install WebP tools so the `cwebp` command is available, then run:
+
+```bash
+python3 scripts/convert_images_to_webp.py --quality 80 --delete-originals
+```
+
+Use `--dry-run` first to preview the conversions and JSON path rewrites without
+changing files.
 
 ## JSON formats
 
@@ -72,8 +85,8 @@ For each book:
 ```json
 {
   "pages": [
-    {"page": 1, "text": "...", "image": "data/images/1/page_1.png", "note": "editorial note"},
-    {"page": 2, "text": "...", "image": "data/images/1/page_2.png"}
+    {"page": 1, "text": "...", "image": "data/images/1/page_1.webp", "note": "editorial note"},
+    {"page": 2, "text": "...", "image": "data/images/1/page_2.webp"}
   ],
   "elements": [
     {"start": 1, "end": 2, "author": "...", "type": "text"},
@@ -106,5 +119,5 @@ For each book:
 
 Open: http://127.0.0.1:8000
 
-- Homepage uses `data/index.json` + `title_small.png` for tiles and `title.png` for the hero.
+- Homepage uses `data/index.json` + `title_small.webp` for tiles and `title.webp` for the hero, with PNG fallback.
 - Book page uses `data/{book}.json` and renders images + merged text ranges.

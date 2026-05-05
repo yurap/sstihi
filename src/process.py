@@ -10,7 +10,10 @@ Usage:
 import argparse
 import json
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 from pathlib import Path
 from typing import List, Optional, Tuple
 
@@ -229,6 +232,37 @@ def render_page_png(doc, page_number: int, out_path: Path, scale: float = 1.25) 
     pix.save(str(out_path))
 
 
+def convert_png_to_webp(png_path: Path, webp_path: Path, quality: int) -> None:
+    cwebp = shutil.which("cwebp")
+    if cwebp is None:
+        raise RuntimeError("cwebp is required to write WebP images")
+    webp_path.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(
+        [cwebp, "-quiet", "-q", str(quality), str(png_path), "-o", str(webp_path)],
+        check=True,
+    )
+
+
+def render_page_image(
+    doc,
+    page_number: int,
+    out_path: Path,
+    scale: float,
+    image_format: str,
+    webp_quality: int,
+) -> Path:
+    if image_format == "png" or (image_format == "auto" and shutil.which("cwebp") is None):
+        render_page_png(doc, page_number, out_path.with_suffix(".png"), scale=scale)
+        return out_path.with_suffix(".png")
+
+    webp_path = out_path.with_suffix(".webp")
+    with tempfile.NamedTemporaryFile(suffix=".png") as tmp:
+        tmp_path = Path(tmp.name)
+        render_page_png(doc, page_number, tmp_path, scale=scale)
+        convert_png_to_webp(tmp_path, webp_path, webp_quality)
+    return webp_path
+
+
 def detect_type(text: str) -> str:
     if not text.strip():
         return "image"
@@ -340,7 +374,17 @@ def main() -> int:
     parser.add_argument("--scale", type=float, default=2.0, help="Page render scale for page images")
     parser.add_argument("--title-scale", type=float, default=4.0, help="Scale for title image (page 1)")
     parser.add_argument("--title-small-scale", type=float, default=1.5, help="Scale for small title image")
+    parser.add_argument(
+        "--image-format",
+        choices=["auto", "png", "webp"],
+        default="auto",
+        help="Image output format. auto writes WebP when cwebp is available, otherwise PNG.",
+    )
+    parser.add_argument("--webp-quality", type=int, default=80, help="WebP quality, 0-100")
     args = parser.parse_args()
+    if not 0 <= args.webp_quality <= 100:
+        print("--webp-quality must be between 0 and 100", file=sys.stderr)
+        return 2
 
     base_dir = Path(__file__).resolve().parent.parent
     downloads_dir = base_dir / "downloads"
@@ -379,10 +423,22 @@ def main() -> int:
             # Render title images from page 1 (separate from page images).
             if not args.no_images:
                 title_dir = base_dir / "data" / "images" / f"{book}"
-                title_path = title_dir / "title.png"
-                title_small_path = title_dir / "title_small.png"
-                render_page_png(doc, 1, title_path, scale=args.title_scale)
-                render_page_png(doc, 1, title_small_path, scale=args.title_small_scale)
+                render_page_image(
+                    doc,
+                    1,
+                    title_dir / "title",
+                    scale=args.title_scale,
+                    image_format=args.image_format,
+                    webp_quality=args.webp_quality,
+                )
+                render_page_image(
+                    doc,
+                    1,
+                    title_dir / "title_small",
+                    scale=args.title_small_scale,
+                    image_format=args.image_format,
+                    webp_quality=args.webp_quality,
+                )
 
             for p, (text, title_hint, author) in zip(page_list, page_infos):
                 print(f"book {book}: page {p}", file=sys.stderr)
@@ -404,8 +460,16 @@ def main() -> int:
                 if args.no_images:
                     image_path = None
                 else:
-                    image_path = f"data/images/{book}/page_{p}.png"
-                    render_page_png(doc, p, base_dir / image_path, scale=args.scale)
+                    image_base_path = base_dir / "data" / "images" / f"{book}" / f"page_{p}"
+                    rendered_path = render_page_image(
+                        doc,
+                        p,
+                        image_base_path,
+                        scale=args.scale,
+                        image_format=args.image_format,
+                        webp_quality=args.webp_quality,
+                    )
+                    image_path = rendered_path.relative_to(base_dir).as_posix()
                 pages_out.append(
                     {
                         "page": p,

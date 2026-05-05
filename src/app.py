@@ -279,20 +279,29 @@ def list_books() -> List[dict]:
     return data.get("books", [])
 
 
+def _first_existing_image(book_id: int, stem: str) -> Optional[str]:
+    image_dir = DATA_DIR / "images" / str(book_id)
+    for suffix in (".webp", ".png"):
+        path = image_dir / f"{stem}{suffix}"
+        if path.exists():
+            return f"/data/images/{book_id}/{stem}{suffix}"
+    return None
+
+
 @app.get("/", response_class=HTMLResponse)
 def index(request: Request):
     books = list_books()
     for b in books:
         book_id = b.get("id")
         if isinstance(book_id, int):
-            title_small = DATA_DIR / "images" / str(book_id) / "title_small.png"
-            title_large = DATA_DIR / "images" / str(book_id) / "title.png"
-            if title_small.exists():
-                b["cover"] = f"/data/images/{book_id}/title_small.png"
-            elif title_large.exists():
-                b["cover"] = f"/data/images/{book_id}/title.png"
-            if title_large.exists():
-                b["cover_large"] = f"/data/images/{book_id}/title.png"
+            cover = _first_existing_image(book_id, "title_small")
+            cover_large = _first_existing_image(book_id, "title")
+            if cover:
+                b["cover"] = cover
+            elif cover_large:
+                b["cover"] = cover_large
+            if cover_large:
+                b["cover_large"] = cover_large
     hero_candidates = [b for b in books if b.get("cover")]
     hero_book = random.choice(hero_candidates) if hero_candidates else (books[0] if books else None)
     hero_snippet = pick_hero_snippet(hero_book["id"]) if hero_book and hero_book.get("id") else None
