@@ -187,7 +187,7 @@
     {
       "start": 3,
       "end": 3,
-      "author": "Сергей Штейнер",
+      "author": null,
       "type": "text"
     },
     {
@@ -198,6 +198,12 @@
     },
     {
       "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 6,
       "end": 6,
       "author": null,
       "type": "text"
@@ -336,8 +342,14 @@
     },
     {
       "start": 29,
+      "end": 29,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 30,
       "end": 30,
-      "author": "Алина Дием",
+      "author": null,
       "type": "text"
     },
     {
