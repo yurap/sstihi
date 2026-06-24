@@ -89,15 +89,15 @@ changing files.
     {"page": 2, "text": "...", "image": "data/images/1/page_2.webp"}
   ],
   "elements": [
-    {"start": 1, "end": 2, "author": "...", "type": "text"},
+    {"start": 1, "end": 1, "author": "...", "type": "text"},
     {"start": 3, "end": 3, "author": null, "type": "image"}
   ]
 }
 ```
 
 - `pages` is a list of page records with text and image path; optional `note` is shown as a distinct note in text mode.
-- `elements` is a list of merged ranges (start/end inclusive) with a `type` and optional `author`.
-- Each page should belong to some element (you can manually edit the ranges to fix grouping).
+- `elements` is a list of one-page ranges (start/end inclusive) with a `type` and optional `author`.
+- Each page should belong to its own element.
 
 ### `data/index.json`
 

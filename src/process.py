@@ -302,69 +302,6 @@ def detect_type(text: str) -> str:
     return "text"
 
 
-def has_separator(text: str) -> bool:
-    for line in text.splitlines():
-        stripped = line.strip()
-        if not stripped:
-            continue
-        # Allow separators like "***" or "* * *" (only asterisks and spaces).
-        if all(ch == "*" for ch in stripped.replace(" ", "")) and stripped.count("*") >= 3:
-            return True
-    return False
-
-
-def starts_like_new_poem(text: str, title_hint: bool) -> bool:
-    if title_hint:
-        return True
-    lines = [ln.strip() for ln in text.splitlines() if ln.strip()]
-    if not lines:
-        return False
-    first = lines[0]
-    first_clean = re.sub(r"^[^0-9A-Za-zА-Яа-я]+", "", first)
-    # Ignore horizontal rule-like lines as titles.
-    if re.fullmatch(r"[—-]+", first.strip()):
-        return False
-    # Date-like titles (e.g., "31 марта 2025", "31.03.2025") should start new items.
-    date_words = (
-        r"января|февраля|марта|апреля|мая|июня|июля|августа|"
-        r"сентября|октября|ноября|декабря"
-    )
-    date_re = re.compile(rf"\b[0-3]?\d\s+({date_words})\s+20\d{{2}}\b", re.IGNORECASE)
-    date_num_re = re.compile(r"\b[0-3]?\d[./-][01]?\d[./-]20\d{2}\b")
-    if date_re.search(first_clean) or date_num_re.search(first_clean):
-        return True
-    letters = sum(ch.isalpha() for ch in first_clean)
-    if letters < 3:
-        return False
-    # Short-ish first line looks like a title/new start, unless it starts lowercase.
-    if len(first_clean) <= 120 and len(lines) <= 3:
-        first_char = first_clean[0]
-        if first_char.islower():
-            return False
-        return True
-    # Short title line followed by body text (even if many lines).
-    if len(first_clean) <= 40 and len(lines) >= 2:
-        first_char = first_clean[0]
-        if not first_char.islower():
-            second = lines[1]
-            letters2 = sum(ch.isalpha() for ch in second)
-            if letters2 >= 10:
-                return True
-    # Title line followed by shouty line (e.g., title then ALL CAPS body).
-    if len(first_clean) <= 40 and len(lines) >= 2:
-        second = lines[1]
-        letters2 = sum(ch.isalpha() for ch in second)
-        if letters2 >= 5:
-            upper2 = sum(ch.isupper() for ch in second)
-            if upper2 >= int(letters2 * 0.7):
-                return True
-    # If first line is mostly uppercase, treat as new.
-    upper = sum(ch.isupper() for ch in first_clean)
-    if upper >= max(5, int(letters * 0.6)):
-        return True
-    return False
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description="Extract pages/elements to JSON")
     parser.add_argument("book", type=str, help="PDF number(s) to process (comma-separated)")
@@ -414,12 +351,8 @@ def main() -> int:
                 page_list = pages
             page_infos = [extract_page_info(doc, p) for p in page_list]
 
-            item = 1
-            prev_text = ""
-            prev_item = None
             pages_out = []
             elements = []
-            current_element = None
             # Render title images from page 1 (separate from page images).
             if not args.no_images:
                 title_dir = base_dir / "data" / "images" / f"{book}"
@@ -440,22 +373,9 @@ def main() -> int:
                     webp_quality=args.webp_quality,
                 )
 
-            for p, (text, title_hint, author) in zip(page_list, page_infos):
+            for p, (text, _title_hint, author) in zip(page_list, page_infos):
                 print(f"book {book}: page {p}", file=sys.stderr)
                 page_type = detect_type(text)
-                continuation_of = None
-                if page_type == "text" and prev_text:
-                    prev_lines = [ln for ln in prev_text.splitlines() if ln.strip()]
-                    curr_lines = [ln for ln in text.splitlines() if ln.strip()]
-                    if not has_separator(text) and not starts_like_new_poem(text, title_hint):
-                        continuation_of = prev_item
-                    elif (
-                        not has_separator(text)
-                        and len(prev_lines) > 6
-                        and len(curr_lines) <= 6
-                    ):
-                        # Likely a page break in the middle of a poem.
-                        continuation_of = prev_item
                 image_path = None
                 if args.no_images:
                     image_path = None
@@ -478,38 +398,15 @@ def main() -> int:
                     }
                 )
 
-                # Build element ranges for manual tweaking later.
-                if page_type != "text":
-                    if current_element:
-                        elements.append(current_element)
-                        current_element = None
-                    elements.append(
-                        {
-                            "start": p,
-                            "end": p,
-                            "author": None,
-                            "type": page_type,
-                        }
-                    )
-                else:
-                    if continuation_of is None or current_element is None:
-                        if current_element:
-                            elements.append(current_element)
-                        current_element = {
-                            "start": p,
-                            "end": p,
-                            "author": author,
-                            "type": "text",
-                        }
-                    else:
-                        current_element["end"] = p
-                        if author and not current_element.get("author"):
-                            current_element["author"] = author
-                prev_text = text
-                prev_item = item
-                item += 1
-            if current_element:
-                elements.append(current_element)
+                # Each page is its own display element.
+                elements.append(
+                    {
+                        "start": p,
+                        "end": p,
+                        "author": author if page_type == "text" else None,
+                        "type": page_type,
+                    }
+                )
             output = {"pages": pages_out, "elements": elements}
             if args.stdout:
                 print(json.dumps(output, ensure_ascii=False))
