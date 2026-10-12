@@ -94,6 +94,14 @@ html.home.snap-off {
   color: var(--muted);
 }
 
+button.icon-link:disabled {
+  margin: 0;
+  padding: 0;
+  opacity: 0.4;
+  cursor: default;
+  box-shadow: none;
+}
+
 .switch {
   display: inline-flex;
   align-items: center;

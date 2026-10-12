@@ -1,0 +1,314 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "text": null,
+      "image": "data/images/58/page_1.webp"
+    },
+    {
+      "page": 2,
+      "text": null,
+      "image": "data/images/58/page_2.webp"
+    },
+    {
+      "page": 3,
+      "text": "Необычайно бодрящие тексты, написанные сенсеем\nШизукой в рамках его осеннего турне по Западной\nЕвропе в поисках кофейка.\nКаждый текст оформлен в виде статусного\nпроизведения искусства, которое украсит любой\nпредставительский интерьер и корпоративное\nсобрание.\nВозможна также покупка работы вместе со всей\nмеблировкой за небольшую доплату.\nЦены по запросу.\n",
+      "image": "data/images/58/page_3.webp"
+    },
+    {
+      "page": 4,
+      "text": "SEPT. 13, 2026\n",
+      "image": "data/images/58/page_4.webp"
+    },
+    {
+      "page": 5,
+      "text": "SEPT. 14, 2026\n",
+      "image": "data/images/58/page_5.webp"
+    },
+    {
+      "page": 6,
+      "text": "SEPT. 15, 2026\n",
+      "image": "data/images/58/page_6.webp"
+    },
+    {
+      "page": 7,
+      "text": "SEPT. 16, 2026\n",
+      "image": "data/images/58/page_7.webp"
+    },
+    {
+      "page": 8,
+      "text": "SEPT. 17, 2026\n",
+      "image": "data/images/58/page_8.webp"
+    },
+    {
+      "page": 9,
+      "text": "SEPT. 18, 2026\n",
+      "image": "data/images/58/page_9.webp"
+    },
+    {
+      "page": 10,
+      "text": "SEPT. 19, 2026\n",
+      "image": "data/images/58/page_10.webp"
+    },
+    {
+      "page": 11,
+      "text": "SEPT. 20, 2026\n",
+      "image": "data/images/58/page_11.webp"
+    },
+    {
+      "page": 12,
+      "text": "SEPT. 21, 2026\n",
+      "image": "data/images/58/page_12.webp"
+    },
+    {
+      "page": 13,
+      "text": "SEPT. 22, 2026\n",
+      "image": "data/images/58/page_13.webp"
+    },
+    {
+      "page": 14,
+      "text": "SEPT. 23, 2026\n",
+      "image": "data/images/58/page_14.webp"
+    },
+    {
+      "page": 15,
+      "text": "SEPT. 24, 2026\n",
+      "image": "data/images/58/page_15.webp"
+    },
+    {
+      "page": 16,
+      "text": "SEPT. 25, 2026\n",
+      "image": "data/images/58/page_16.webp"
+    },
+    {
+      "page": 17,
+      "text": "SEPT. 26, 2026\n",
+      "image": "data/images/58/page_17.webp"
+    },
+    {
+      "page": 18,
+      "text": "SEPT. 27, 2026\n",
+      "image": "data/images/58/page_18.webp"
+    },
+    {
+      "page": 19,
+      "text": "SEPT. 28, 2026\n",
+      "image": "data/images/58/page_19.webp"
+    },
+    {
+      "page": 20,
+      "text": "SEPT. 29, 2026\n",
+      "image": "data/images/58/page_20.webp"
+    },
+    {
+      "page": 21,
+      "text": "SEPT. 30, 2026\n",
+      "image": "data/images/58/page_21.webp"
+    },
+    {
+      "page": 22,
+      "text": "OCT. 1, 2026\n",
+      "image": "data/images/58/page_22.webp"
+    },
+    {
+      "page": 23,
+      "text": "OCT. 2, 2026\n",
+      "image": "data/images/58/page_23.webp"
+    },
+    {
+      "page": 24,
+      "text": "OCT. 3, 2026\n",
+      "image": "data/images/58/page_24.webp"
+    },
+    {
+      "page": 25,
+      "text": "OCT. 4, 2026\n",
+      "image": "data/images/58/page_25.webp"
+    },
+    {
+      "page": 26,
+      "text": "OCT. 5, 2026\n",
+      "image": "data/images/58/page_26.webp"
+    },
+    {
+      "page": 27,
+      "text": null,
+      "image": "data/images/58/page_27.webp"
+    },
+    {
+      "page": 28,
+      "text": "ОБ АВТОРЕ\nШизука\nАффогатокава\nГуру поэзии, основатель школы Бесконтактного Стиха и стиля\n«Крадущийся Омлет».\nКандидат филологических наук, сэнсэй.\nt.me/kradushhijsja_omlet\n",
+      "image": "data/images/58/page_28.webp"
+    }
+  ],
+  "elements": [
+    {
+      "start": 1,
+      "end": 1,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 2,
+      "end": 2,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 3,
+      "end": 3,
+      "author": null,
+      "type": "text"
+    },
+    {
+      "start": 4,
+      "end": 4,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 5,
+      "end": 5,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 6,
+      "end": 6,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 7,
+      "end": 7,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 8,
+      "end": 8,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 9,
+      "end": 9,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 10,
+      "end": 10,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 11,
+      "end": 11,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 12,
+      "end": 12,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 13,
+      "end": 13,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 14,
+      "end": 14,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 15,
+      "end": 15,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 16,
+      "end": 16,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 17,
+      "end": 17,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 18,
+      "end": 18,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 19,
+      "end": 19,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 20,
+      "end": 20,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 21,
+      "end": 21,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 22,
+      "end": 22,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 23,
+      "end": 23,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 24,
+      "end": 24,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 25,
+      "end": 25,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 26,
+      "end": 26,
+      "author": null,
+      "type": "title"
+    },
+    {
+      "start": 27,
+      "end": 27,
+      "author": null,
+      "type": "image"
+    },
+    {
+      "start": 28,
+      "end": 28,
+      "author": null,
+      "type": "text"
+    }
+  ]
+}

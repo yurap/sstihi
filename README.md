@@ -109,7 +109,9 @@ changing files.
 }
 ```
 
-`title` can be filled manually; `url` is the original Google Drive link.
+`title` can be filled manually; `url` is the optional original Google Drive link.
+Omit `url` or leave it empty or `null` when no PDF link is available; the viewer
+will show a disabled PDF button.
 
 ## Run the web app
 

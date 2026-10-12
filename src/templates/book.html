@@ -13,10 +13,15 @@
     <a class="icon-link" href="#" id="scroll-bottom" title="Вниз">
       <img src="/static/arrow-up.svg" alt="Вниз" class="icon-down" />
     </a>
-    {% if book_meta and book_meta.url %}
-      <a class="icon-link" href="{{ book_meta.url }}" target="_blank" rel="noopener" title="PDF">
+    {% set pdf_url = (book_meta.url or '') | trim if book_meta else '' %}
+    {% if pdf_url %}
+      <a class="icon-link" href="{{ pdf_url }}" target="_blank" rel="noopener" title="PDF">
         <img src="/static/pdf.svg" alt="PDF" />
       </a>
+    {% else %}
+      <button class="icon-link" type="button" disabled title="PDF недоступен" aria-label="PDF недоступен">
+        <img src="/static/pdf.svg" alt="" />
+      </button>
     {% endif %}
     <label class="switch icon-toggle" title="Images only">
       <input id="toggle-images-only" type="checkbox" />
